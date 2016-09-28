@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AXRatingView (0.9.8)
+  - Canvas (0.1.2)
+  - CocoaLumberjack (2.0.0-beta):
+    - CocoaLumberjack/CLI
+    - CocoaLumberjack/Core
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/CLI (2.0.0-beta):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Core (2.0.0-beta)
+  - CocoaLumberjack/Extensions (2.0.0-beta):
+    - CocoaLumberjack/Core
+  - PubNub (3.6.8)
+  - Stripe (2.0.3):
+    - Stripe/Core
+  - Stripe/Core (2.0.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - AXRatingView (~> 0.9.6)
+  - Canvas (~> 0.1)
+  - CocoaLumberjack
+  - PubNub (= 3.6.8)
+  - Stripe
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  AXRatingView: bd3238a37e806f67d0ff35d9c0671a8e71402f54
+  Canvas: ae2faca05a15c4d6659fb3ae5e2a14817df4449a
+  CocoaLumberjack: aadc76d7bd6c839ca84b38ed50cbf89d7cf8c693
+  PubNub: e0f687c21cf4778604ae540d8f6af9b24c864a41
+  Stripe: 9107ab1e1bb22990dfd9e273cf25922d8b401abf
+
+COCOAPODS: 0.34.0

@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/rakesh/Desktop/CarConnect-4/privMD/SignUpViewController.m \
+  /Users/rakesh/Desktop/CarConnect-4/privMD/SignUpViewController.h \
+  /Users/rakesh/Desktop/CarConnect-4/privMD/CardLoginViewController.h \
+  /Users/rakesh/Desktop/CarConnect-4/UploadFiles.h \
+  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKView.h \
+  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCard.h \
+  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCardNumber.h \
+  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCardType.h \
+  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKComponent.h \
+  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCardExpiry.h \
+  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCardCVC.h \
+  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKAddressZip.h \
+  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKUSAddressZip.h \
+  /Users/rakesh/Desktop/CarConnect-4/privMD/TermsnConditionViewController.h \
+  /Users/rakesh/Desktop/CarConnect-4/privMD/SignInViewController.h \
+  /Users/rakesh/Desktop/CarConnect-4/UIImageView+WebCache.h \
+  /Users/rakesh/Desktop/CarConnect-4/SDWebImageCompat.h \
+  /Users/rakesh/Desktop/CarConnect-4/SDWebImageManager.h \
+  /Users/rakesh/Desktop/CarConnect-4/SDWebImageOperation.h \
+  /Users/rakesh/Desktop/CarConnect-4/SDWebImageDownloader.h \
+  /Users/rakesh/Desktop/CarConnect-4/SDImageCache.h

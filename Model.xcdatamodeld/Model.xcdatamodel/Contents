@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DestinationAddress" representedClassName="DestinationAddress" syncable="YES">
+        <attribute name="desAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desAddress2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="desLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Entity" representedClassName="Entity" syncable="YES">
+        <attribute name="cardtype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expMonth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="expYear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idCard" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last4" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SourceAddress" representedClassName="SourceAddress" syncable="YES">
+        <attribute name="srcAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srcAddress2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srcLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="srcLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DestinationAddress" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="Entity" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="SourceAddress" positionX="0" positionY="0" width="128" height="105"/>
+    </elements>
+</model>

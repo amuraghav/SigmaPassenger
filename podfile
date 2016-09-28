@@ -1,0 +1,6 @@
+pod 'Stripe' 
+pod 'AFNetworking','~> 2.0'
+pod 'PubNub', '3.6.8'
+pod 'Canvas', '~> 0.1'
+pod 'CocoaLumberjack'
+pod 'AXRatingView', '~> 0.9.6'

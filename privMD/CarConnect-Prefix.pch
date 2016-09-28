@@ -1,0 +1,100 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+#import "Helper.h"
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import "ProgressIndicator.h"
+    #import "AppConstants.h"
+    #import "Helper.h"
+    #import "WebServiceHandler.h"
+    #import "Service.h"
+    #import "JSONParser.h"
+    #import "TinderGenericUtility.h"
+    #import "Fonts.h"
+    #import "PNImports.h"
+    #import "TELogger.h"
+    #import "TELogFormatter.h"
+    #import "PMDReachabilityWrapper.h"
+    #import"AppointmentLocation.h"
+    #import <Crashlytics/Crashlytics.h>
+    #import"PatientGetLocalCurrency.h"
+    #import "NetworkHandler.h"
+
+
+#endif
+
+#define Debug 1
+
+//#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+//#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:11.0/255.0 green:11.0/255.0 blue:11.0/255.0 alpha:1]
+
+//#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:242.0/255.0 green:242.0/255.0 blue:242.0/255.0 alpha:1]
+
+//#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:50.0/255.0 green:69.0/255.0 blue:97.0/255.0 alpha:1]
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1]
+
+
+
+#define UIThemecolor [UIColor colorWithRed:45.0/255.0 green:71.0/255.0 blue:108.0/255.0 alpha:1]
+
+
+
+
+#define UIColorFromRGBWithAlpha(rgbValue,a) [UIColor \colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+
+#define IS_IPHONE_5     ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+//#define IS_IPHONE_6     ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )667 ) < DBL_EPSILON )
+#define IS_IPHONE       ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPhone" ] )
+#define IS_IPOD         ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPod touch" ] )
+#define IS_IOS7         ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define IS_SIMULATOR    ( [ [ [ UIDevice currentDevice ] model ] isEqualToString:@"iPhone Simulator"])
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+#define CLEAR_COLOR     [UIColor clearColor]
+#define WHITE_COLOR     [UIColor whiteColor]
+#define BLACK_COLOR     [UIColor blackColor]
+#define GREEN_COLOR     [UIColor greenColor]
+
+//#define BG_Color [UIColor colorWithPatternImage:[UIImage imageNamed:@"BG_Color"]]
+#define BG_Color [UIColor colorWithRed:222.0/255.0 green:220.0/255.0 blue:239.0/255.0 alpha:1]
+#define PROFILE_BG_Color [UIColor colorWithRed:250.0/255.0 green:242.0/255.0 blue:211.0/255.0 alpha:1]
+#define NavBarTint_Color [UIColor colorWithRed:114.0/255.0 green:102.0/255.0 blue:216.0/255.0 alpha:1]
+
+#define theam_color [UIColor colorWithRed:229.0/255.0 green:88.0/255.0 blue:88.0/255.0 alpha:1]
+#define TextColor_Color [UIColor colorWithRed:105.0/255.0 green:92.0/255.0 blue:0 alpha:1]
+#define Payment_BG_Color [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:0.8]
+
+
+#define BUTTON_BG_Color [UIColor colorWithRed:31.0/255.0 green:227.0/255.0 blue:230.0/255.0 alpha:1]
+
+
+
+#define BUTTON_NG_Color [UIColor colorWithRed:75.0/255.0 green:75.0/255.0 blue:148.0/255.0 alpha:1]
+#define BUTTON_VIEW_Color [UIColor colorWithRed:82.0/255.0 green:102.0/255.0 blue:129.0/255.0 alpha:1]
+
+
+
+
+
+
+
+
