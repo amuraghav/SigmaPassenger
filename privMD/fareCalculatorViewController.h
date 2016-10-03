@@ -35,4 +35,11 @@
 - (IBAction)changeLocationButtonClicked:(id)sender;
 - (IBAction)goBack_Action:(id)sender;
 
+@property (nonatomic,assign)BOOL isPopLockSelected;
+@property (weak, nonatomic) IBOutlet UIImageView *carImageView;
+@property (weak, nonatomic) IBOutlet UIView *fareContentView;
+@property (weak, nonatomic) IBOutlet UILabel *firstFarelabel;
+@property (weak, nonatomic) IBOutlet UILabel *secondFareLabel;
+@property (weak, nonatomic) IBOutlet UILabel *thirdFareLable;
+
 @end

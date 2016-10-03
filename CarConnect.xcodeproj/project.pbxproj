@@ -2449,7 +2449,7 @@
 				ORGANIZATIONNAME = "Rahul Sharma";
 				TargetAttributes = {
 					C28FF88B18AA251E009A191F = {
-						DevelopmentTeam = 2P9N9P2QS2;
+						DevelopmentTeam = MMVGVUJYAG;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2993,8 +2993,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -3017,7 +3017,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PROVISIONING_PROFILE = "4289c60a-544b-491e-bec0-f25ec3e79acf";
+				PROVISIONING_PROFILE = "c2f07df6-725c-4f34-adb4-0a2e8f043c2c";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
@@ -3040,8 +3040,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -3057,7 +3057,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PROVISIONING_PROFILE = "4289c60a-544b-491e-bec0-f25ec3e79acf";
+				PROVISIONING_PROFILE = "c2f07df6-725c-4f34-adb4-0a2e8f043c2c";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -3071,9 +3071,9 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				DEVELOPMENT_TEAM = 2P9N9P2QS2;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3095,10 +3095,10 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CustomAppsTeam.CustomAppsTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appypie.appypie;
 				PRODUCT_NAME = CarConnect;
-				PROVISIONING_PROFILE = "4289c60a-544b-491e-bec0-f25ec3e79acf";
-				PROVISIONING_PROFILE_SPECIFIER = CustomMobileAppsTeam;
+				PROVISIONING_PROFILE = "c2f07df6-725c-4f34-adb4-0a2e8f043c2c";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
@@ -3112,9 +3112,9 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				DEVELOPMENT_TEAM = 2P9N9P2QS2;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3136,10 +3136,10 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CustomAppsTeam.CustomAppsTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appypie.appypie;
 				PRODUCT_NAME = CarConnect;
-				PROVISIONING_PROFILE = "4289c60a-544b-491e-bec0-f25ec3e79acf";
-				PROVISIONING_PROFILE_SPECIFIER = CustomMobileAppsTeam;
+				PROVISIONING_PROFILE = "c2f07df6-725c-4f34-adb4-0a2e8f043c2c";
+				PROVISIONING_PROFILE_SPECIFIER = "Appypie Inhouse latest";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
@@ -3152,8 +3152,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3168,7 +3168,7 @@
 				);
 				INFOPLIST_FILE = "privMDTests/CarConnectTests-Info.plist";
 				PRODUCT_NAME = CarConnectTests;
-				PROVISIONING_PROFILE = "4289c60a-544b-491e-bec0-f25ec3e79acf";
+				PROVISIONING_PROFILE = "c2f07df6-725c-4f34-adb4-0a2e8f043c2c";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarConnect.app/CarConnect";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -3179,8 +3179,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3191,7 +3191,7 @@
 				GCC_PREFIX_HEADER = "privMD/CarConnect-Prefix.pch";
 				INFOPLIST_FILE = "privMDTests/CarConnectTests-Info.plist";
 				PRODUCT_NAME = CarConnectTests;
-				PROVISIONING_PROFILE = "4289c60a-544b-491e-bec0-f25ec3e79acf";
+				PROVISIONING_PROFILE = "c2f07df6-725c-4f34-adb4-0a2e8f043c2c";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarConnect.app/CarConnect";
 				WRAPPER_EXTENSION = xctest;
 			};

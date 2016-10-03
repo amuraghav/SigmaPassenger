@@ -61,6 +61,7 @@ NSString *MethodPatientLogin                 = @"slaveLogin";
 NSString *MethodDoctorUploadImage            = @"uploadImage";
 NSString *MethodPassengerLogout              = @"logout";
 NSString *MethodFareCalculator               = @"fareCalculator";
+NSString *MethodServiceEstimate              = @"getserviceestimate";
 
 
 NSString *MethodchangePassword               = @"changePassword";

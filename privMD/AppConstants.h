@@ -92,6 +92,7 @@ extern NSString *MethodPatientLogin;
 extern NSString *MethodDoctorUploadImage;
 extern NSString *MethodPassengerLogout;
 extern NSString *MethodFareCalculator;
+extern NSString *MethodServiceEstimate;
 
 extern NSString *MethodchangePassword;
 

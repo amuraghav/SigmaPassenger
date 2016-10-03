@@ -35,6 +35,7 @@
 
 -(void)sendAServiceForFareCalculator{
     
+    
     [[ProgressIndicator sharedInstance]showPIOnView:self.view withMessage:@"Loading.."];
     //setup parameters
     NSString *sessionToken = [[NSUserDefaults standardUserDefaults]objectForKey:KDAcheckUserSessionToken];
@@ -47,6 +48,37 @@
     else {
         deviceID = [[NSUserDefaults standardUserDefaults]objectForKey:kPMDDeviceIdKey];
     }
+
+    
+    if(self.isPopLockSelected){
+        NSDictionary *params = @{@"ent_sess_token":sessionToken,
+                                 @"ent_dev_id":deviceID,
+                                 
+                                 };
+        NetworkHandler *networHandler = [NetworkHandler sharedInstance];
+        [networHandler composeRequestWithMethod:MethodServiceEstimate
+                                        paramas:params
+                                   onComplition:^(BOOL success, NSDictionary *response){
+                                       
+                                       if (success) { //handle success response
+                                           TELogInfo(@"response %@",response);
+                                           
+                                           
+                                           
+                                           [self parsegetBookingAppointment:response];
+                                       }
+                                       else
+                                       {
+                                           ProgressIndicator *pi = [ProgressIndicator sharedInstance];
+                                           [pi hideProgressIndicator];
+                                       }
+                                   }];
+    }
+    
+    
+    
+    else{
+    
     
     NSString *currentLatitude = [locationDetails objectForKey:@"cLat"];
     NSString *currentLongitude = [locationDetails objectForKey:@"cLoc"];
@@ -87,7 +119,7 @@
                                    }
                                }];
 
-
+    }
 }
 
 #pragma mark - WEB SERVICE RESPONSE
@@ -111,7 +143,7 @@
     else
     {
 //        NSMutableDictionary *mDict = [[responseDictionary objectForKey:@"ItemsList"] mutableCopy];
-        if ([[responseDictionary objectForKey:@"errFlag"] intValue] == 0)
+        if ([[responseDictionary objectForKey:@"errFlag"] intValue] == 0 && !self.isPopLockSelected)
         {
             
             [Helper setToLabel:_sourceLoactionLabel Text:[locationDetails objectForKey:@"pAddr"] WithFont:Trebuchet_MS FSize:14 Color:[UIColor blackColor]];
@@ -125,6 +157,22 @@
             [Helper setToLabel:_paymentLabel Text:curreny WithFont:Trebuchet_MS_Bold FSize:40 Color:[UIColor blackColor]];
             NSString *stri = @"Fares may vary due to traffic,weather and other factors.Estimate doesnot include discount or promotions.";
             [Helper setToLabel:_messageLabel Text:stri WithFont:Trebuchet_MS FSize:12 Color:[UIColor blackColor]];
+            
+        }
+        else if([[responseDictionary objectForKey:@"errFlag"] intValue] == 0 && self.isPopLockSelected){
+            
+            [Helper setToLabel:_sourceLoactionLabel Text:[locationDetails objectForKey:@"pAddr"] WithFont:Trebuchet_MS FSize:14 Color:[UIColor blackColor]];
+//            NSString *curreny =  [PatientGetLocalCurrency getCurrencyLocal:[responseDictionary[@"fare"] floatValue]];
+//            [Helper setToLabel:_sourceDistanceLabel Text:[NSString stringWithFormat:@" %@",responseDictionary[@"curDis"]] WithFont:Trebuchet_MS FSize:11 Color:UIColorFromRGB(0x969797)];
+            [Helper setToLabel:_pickupLAbel Text:@"Pick Up Location" WithFont:Trebuchet_MS FSize:11 Color:[UIColor blackColor]];
+            _paymentLabel.hidden = YES;
+           
+            
+            NSArray *fareArr = [responseDictionary objectForKey:@"content"];
+            self.firstFarelabel.text = [NSString stringWithFormat:@"%@ KM =  %@ \n",[[fareArr objectAtIndex:0] objectForKey:@"description"],[[fareArr objectAtIndex:0]  objectForKey:@"amount"]];
+            self.secondFareLabel.text = [NSString stringWithFormat:@"%@ KM =  %@ \n",[[fareArr objectAtIndex:1] objectForKey:@"description"],[[fareArr objectAtIndex:1]  objectForKey:@"amount"]];
+            self.thirdFareLable.text = [NSString stringWithFormat:@"%@ KM =  %@ \n",[[fareArr objectAtIndex:2] objectForKey:@"description"],[[fareArr objectAtIndex:2]  objectForKey:@"amount"]];
+//            _messageLabel.backgroundColor = [UIColor grayColor];
             
         }
         else
@@ -184,7 +232,7 @@
    
    // [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"login_bg"]]];
     _centerView.frame = CGRectMake(10, [UIScreen mainScreen].bounds.size.height/2-138/2,300,138);
-    [_centerView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"fc_price_bg.png"]]];
+//
     
     changeLocationButton.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height-50-64, 320, 50);
 
@@ -194,6 +242,22 @@
     [self.navigationController.navigationBar
      setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName: [UIFont fontWithName:@"TrebuchetMS-Bold" size:17]}];
     self.navigationController.navigationBar.translucent = NO;
+   
+    
+    if(self.isPopLockSelected){
+        
+        self.changeLocationButton.hidden = YES;
+        self.carImageView.hidden = YES;
+        _centerView.hidden = YES;
+        self.fareContentView.hidden = NO;
+    }
+    else{
+         [_centerView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"fc_price_bg.png"]]];
+        self.changeLocationButton.hidden = NO;
+        self.carImageView.hidden = NO;
+         _centerView.hidden = NO;
+        self.fareContentView.hidden = YES;
+    }
     
     [self sendAServiceForFareCalculator];
     
@@ -204,8 +268,8 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated
-{
-    self.navigationItem.title = @"FARE CALCULATOR";
+{ 
+    self.navigationItem.title = (self.isPopLockSelected)?@"SERVICE ESTIMATE":@"FARE CALCULATOR" ;
     self.navigationController.navigationBarHidden = NO;
     self.navigationItem.hidesBackButton = YES;
     

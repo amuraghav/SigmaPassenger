@@ -4936,16 +4936,16 @@ bool isComingTocheckCarTypes;
     
     UIView *customBottomView=nil;
     
-    if(isPopLockSelected){
-        
-        customBottomView = [[UIView alloc]initWithFrame:CGRectMake(10,basketBottom.frame.size.height-150,300,100)];
-    }
-    else{
-        
+//    if(isPopLockSelected){
+//        
+//        customBottomView = [[UIView alloc]initWithFrame:CGRectMake(10,basketBottom.frame.size.height-150,300,100)];
+//    }
+//    else{
+    
         customBottomView = [[UIView alloc]initWithFrame:CGRectMake(10,basketBottom.frame.size.height-190,300,140)];
         
         
-    }
+//    }
     
    
      customBottomView.backgroundColor = [UIColor whiteColor]; //[UIColor colorWithPatternImage:[UIImage imageNamed:@"conform_farequotebtn_bg.png"]];
@@ -4995,19 +4995,22 @@ bool isComingTocheckCarTypes;
         }
         else{
             
-            if (isPopLockSelected) {
-                
-                CardButton.frame = CGRectMake(0,00,300,37);
-                CardButton.tag = 502;
-                [CardButton addTarget:self action:@selector(cardButtonClicked) forControlEvents:UIControlEventTouchUpInside];
-                [Helper setButton:CardButton Text:@"Select Payment Type" WithFont:Trebuchet_MS FSize:13 TitleColor:[UIColor blackColor] ShadowColor:nil];
-            }
-            else{
+//            if (isPopLockSelected) {
+//                
+//                CardButton.frame = CGRectMake(0,00,300,37);
+//                CardButton.tag = 502;
+//                [CardButton addTarget:self action:@selector(cardButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+//                [Helper setButton:CardButton Text:@"Select Payment Type" WithFont:Trebuchet_MS FSize:13 TitleColor:[UIColor blackColor] ShadowColor:nil];
+//            }
+//            else{
                  CardButton.frame = CGRectMake(0,37,300,37);
                  CardButton.tag = 503;
                  [CardButton addTarget:self action:@selector(fareButtonClicked) forControlEvents:UIControlEventTouchUpInside];
-                 [Helper setButton:CardButton Text:@"Fare Estimate" WithFont:Trebuchet_MS FSize:13 TitleColor:[UIColor blackColor] ShadowColor:nil];
-                
+            
+            (isPopLockSelected)?[Helper setButton:CardButton Text:@"Service Estimate" WithFont:Trebuchet_MS FSize:13 TitleColor:[UIColor blackColor] ShadowColor:nil]:[Helper setButton:CardButton Text:@"Fare Estimate" WithFont:Trebuchet_MS FSize:13 TitleColor:[UIColor blackColor] ShadowColor:nil];
+            
+//                 [Helper setButton:CardButton Text:@"Fare Estimate" WithFont:Trebuchet_MS FSize:13 TitleColor:[UIColor blackColor] ShadowColor:nil];
+            
                 UIButton *PromoButton = [UIButton buttonWithType:UIButtonTypeCustom];
                 PromoButton.frame = CGRectMake(0,0,300,37);
                 [Helper setButton:PromoButton Text:@"Select Payment Type" WithFont:Trebuchet_MS FSize:13 TitleColor:[UIColor blackColor]ShadowColor:nil];
@@ -5020,7 +5023,7 @@ bool isComingTocheckCarTypes;
                  PromoButton.tag = 502;
                 [customBottomView addSubview:PromoButton];
                 
-            }
+//            }
             
                 [CardButton setShowsTouchWhenHighlighted:YES];
             
@@ -5040,8 +5043,12 @@ bool isComingTocheckCarTypes;
     [FareView setBackgroundColor:UIThemecolor];
     UIButton *FareButton = [UIButton buttonWithType:UIButtonTypeCustom];
     if (isPopLockSelected) {
-        FareView.frame= CGRectMake(0,37,300,50);
-        FareButton.frame = CGRectMake(15,44,260,36);
+//        FareView.frame= CGRectMake(0,37,300,50);
+//        FareButton.frame = CGRectMake(15,44,260,36);
+        
+        
+        FareView.frame= CGRectMake(0,74,300,50);
+        FareButton.frame = CGRectMake(15,81,260,36);
     }else{
         FareView.frame= CGRectMake(0,74,300,50);
         FareButton.frame = CGRectMake(15,81,130,36);
@@ -5602,6 +5609,35 @@ bool isComingTocheckCarTypes;
  */
 -(void)fareButtonClicked
 {
+    if(isPopLockSelected){
+        NSDictionary *params = @{@"cLoc":[NSString stringWithFormat:@"%f",_currentLongitudeFare],
+                                 @"cLat":[NSString stringWithFormat:@"%f",_currentLatitudeFare],
+                                 @"pLoc":[NSString stringWithFormat:@"%f",srcLong],
+                                 @"pLat":[NSString stringWithFormat:@"%f",srcLat],
+                                 @"pAddr":srcAddr,
+                                 @"dLat":[NSString stringWithFormat:@"%f",desLat],
+                                 @"dLon":[NSString stringWithFormat:@"%f",desLong],
+                                 @"dAddr":@"",
+                                 };
+        
+        fareCalculatorViewController *invoiceVC = [self.storyboard instantiateViewControllerWithIdentifier:@"fareVC"];
+        invoiceVC.locationDetails = params;
+        invoiceVC.isComingFromMapVC = YES;
+        invoiceVC.carTypesForLiveBookingServer = carTypesForLiveBookingServer;
+        
+        _isSelectinLocation = YES;
+        invoiceVC.isPopLockSelected  = true;
+    
+
+        UINavigationController *navBar=[[UINavigationController alloc]initWithRootViewController:invoiceVC];
+        [self presentViewController:navBar animated:YES completion:nil];
+        
+        
+    }
+    
+    
+    
+    else{
     isLocationChanged = isFixed;
     isFareButtonClicked = YES;
     _isAddressManuallyPicked = YES;
@@ -5645,7 +5681,7 @@ bool isComingTocheckCarTypes;
             invoiceVC.locationDetails = params;
             invoiceVC.isComingFromMapVC = YES;
             invoiceVC.carTypesForLiveBookingServer = carTypesForLiveBookingServer;
-            
+             invoiceVC.isPopLockSelected  = true;
             _isSelectinLocation = YES;
             UINavigationController *navBar=[[UINavigationController alloc]initWithRootViewController:invoiceVC];
             [self presentViewController:navBar animated:YES completion:nil];
@@ -5653,6 +5689,7 @@ bool isComingTocheckCarTypes;
         }
         
         
+    }
     }
 }
 
