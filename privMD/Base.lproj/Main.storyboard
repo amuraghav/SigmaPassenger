@@ -112,7 +112,7 @@
                                         <state key="normal" title="SUBMIT">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <state key="highlighted" backgroundImage="CF54218E-23AE-4AD7-9BF7-D6CC887F34F4"/>
+                                        <state key="highlighted" backgroundImage="7D52F7B2-C94D-4889-8210-A8223023F66C"/>
                                         <connections>
                                             <action selector="SubmitButtonClicked:" destination="1g9-Fp-Lk7" eventType="touchUpInside" id="PVS-dd-2Tq"/>
                                         </connections>
@@ -1036,18 +1036,6 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Y0-jw-NmR">
-                                        <rect key="frame" x="243" y="1284" width="132" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <color key="backgroundColor" red="0.31372549020000001" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Pay Now">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="submit_reviewAction:" destination="0I9-G7-uZU" eventType="touchUpInside" id="2mu-hw-zWd"/>
-                                        </connections>
-                                    </button>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tip: $" textAlignment="natural" minimumFontSize="17" id="tac-kn-wcb">
                                         <rect key="frame" x="40" y="85" width="240" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1057,6 +1045,18 @@
                                             <outlet property="delegate" destination="0I9-G7-uZU" id="y4v-jn-3bj"/>
                                         </connections>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Y0-jw-NmR">
+                                        <rect key="frame" x="104" y="409" width="132" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.31372549020000001" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Pay Now">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="submit_reviewAction:" destination="0I9-G7-uZU" eventType="touchUpInside" id="2mu-hw-zWd"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <connections>
                                     <outlet property="delegate" destination="0I9-G7-uZU" id="gvk-Wi-GXW"/>
@@ -1092,7 +1092,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yk6-ba-2RV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4909" y="-35"/>
+            <point key="canvasLocation" x="4882" y="-29"/>
         </scene>
         <!--Rate View Controller-->
         <scene sceneID="Mzj-Og-8VD">
@@ -1700,6 +1700,11 @@
                                         <rect key="frame" x="10" y="116" width="300" height="268"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bT3-WE-4Ff" userLabel="StripeConnect">
+                                                <frame key="frameInset" minX="127" minY="119" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Ug7-MM-ZtF">
                                                 <frame key="frameInset" minX="25" minY="3" width="250" height="41"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2105,7 +2110,7 @@
     </scenes>
     <resources>
         <image name="290x43.png" width="290" height="43"/>
-        <image name="CF54218E-23AE-4AD7-9BF7-D6CC887F34F4" width="172" height="36">
+        <image name="7D52F7B2-C94D-4889-8210-A8223023F66C" width="172" height="36">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -2593,7 +2598,7 @@ AAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAAGsNA
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="vuV-SQ-GDB"/>
+        <segue reference="hdR-4l-WFe"/>
         <segue reference="ZzZ-6j-9Nv"/>
-        <segue reference="Y2x-HD-PbQ"/>
     </inferredMetricsTieBreakers>
 </document>

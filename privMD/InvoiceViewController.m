@@ -91,9 +91,9 @@
     
 }
 -(void)createPayButton{
-    
+//
     payButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    payButton.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height-40, 320, 40);
+    payButton.frame = CGRectMake(0,400, 320, 40);
     NSLog(@"button frame %f%f%f%f",payButton.frame.origin.x,payButton.frame.origin.y,payButton.frame.size.width,payButton.frame.size.height);
 //    [payButton setBackgroundImage:[UIImage imageNamed:@"conformation_btn_pickup_bg.png"] forState:UIControlStateNormal];
 //    [payButton setBackgroundImage:[UIImage imageNamed:@"conformation_btn_pickup_bg_on.png"] forState:UIControlStateSelected];
@@ -813,7 +813,7 @@
                 _totalAmountToPay = [response[@"fare"] doubleValue];
                 self.tipText.text=[NSString stringWithFormat:@"%0.02f",_totalAmountToPay*25/100];
                 
-                [self createPayButton];
+//                [self createPayButton];
                 if ([response[@"reportMsg"] length] != 0) {
                     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Dispute Message" message:response[@"reportMsg"] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
                     [alert show];

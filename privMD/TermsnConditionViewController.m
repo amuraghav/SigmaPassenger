@@ -108,6 +108,7 @@
 
 -(void)cancelButtonClicked
 {
+     [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"StripeData"];
     [self.navigationController popViewControllerAnimated:YES];
 }
 - (void)didReceiveMemoryWarning
