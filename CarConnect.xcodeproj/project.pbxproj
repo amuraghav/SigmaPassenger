@@ -74,6 +74,11 @@
 		3DE98F9B1BBD65AE00A8F1B4 /* UpdatePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE98F9A1BBD65AE00A8F1B4 /* UpdatePasswordViewController.m */; };
 		3DFAD94C1C9BD22E009D8A53 /* Arrowcalender@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DFAD94A1C9BD22E009D8A53 /* Arrowcalender@2x.png */; };
 		3DFAD94D1C9BD22E009D8A53 /* Calender_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DFAD94B1C9BD22E009D8A53 /* Calender_icon@2x.png */; };
+		843774D51DA783E5001071B2 /* VCLaterBooking.m in Sources */ = {isa = PBXBuildFile; fileRef = 843774D41DA783E5001071B2 /* VCLaterBooking.m */; };
+		843774D91DA789F3001071B2 /* LaterBookingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843774D71DA789F3001071B2 /* LaterBookingTableViewCell.m */; };
+		843774DA1DA789F3001071B2 /* LaterBookingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843774D81DA789F3001071B2 /* LaterBookingTableViewCell.xib */; };
+		843774E41DA7A50E001071B2 /* sigma-1-beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 843774E21DA7A50E001071B2 /* sigma-1-beep.mp3 */; };
+		843774E51DA7A50E001071B2 /* sigma-incoming-request.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 843774E31DA7A50E001071B2 /* sigma-incoming-request.mp3 */; };
 		948ED5F818EEB2270082F7F7 /* PKView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 948ED5F718EEB2270082F7F7 /* PKView+Private.m */; };
 		94E672E418EC44CE00C6D1E0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94E672E318EC44CE00C6D1E0 /* Accelerate.framework */; };
 		94E7610118E55A7000EB41AE /* AppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E7610018E55A7000EB41AE /* AppConstants.m */; };
@@ -510,6 +515,13 @@
 		3DFAD94A1C9BD22E009D8A53 /* Arrowcalender@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrowcalender@2x.png"; sourceTree = "<group>"; };
 		3DFAD94B1C9BD22E009D8A53 /* Calender_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calender_icon@2x.png"; sourceTree = "<group>"; };
 		7C4BEC67E954A3E15FD3442D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		843774D31DA783E5001071B2 /* VCLaterBooking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLaterBooking.h; sourceTree = "<group>"; };
+		843774D41DA783E5001071B2 /* VCLaterBooking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLaterBooking.m; sourceTree = "<group>"; };
+		843774D61DA789F3001071B2 /* LaterBookingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaterBookingTableViewCell.h; sourceTree = "<group>"; };
+		843774D71DA789F3001071B2 /* LaterBookingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaterBookingTableViewCell.m; sourceTree = "<group>"; };
+		843774D81DA789F3001071B2 /* LaterBookingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaterBookingTableViewCell.xib; sourceTree = "<group>"; };
+		843774E21DA7A50E001071B2 /* sigma-1-beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sigma-1-beep.mp3"; sourceTree = "<group>"; };
+		843774E31DA7A50E001071B2 /* sigma-incoming-request.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sigma-incoming-request.mp3"; sourceTree = "<group>"; };
 		9409209A18EAEBD3006DAF49 /* Fonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fonts.h; sourceTree = "<group>"; };
 		948ED5F618EEB2270082F7F7 /* PKView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PKView+Private.h"; sourceTree = "<group>"; };
 		948ED5F718EEB2270082F7F7 /* PKView+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PKView+Private.m"; sourceTree = "<group>"; };
@@ -1089,6 +1101,8 @@
 		3DE7776E1C562BB2002E86A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				843774E21DA7A50E001071B2 /* sigma-1-beep.mp3 */,
+				843774E31DA7A50E001071B2 /* sigma-incoming-request.mp3 */,
 				3DE7776F1C562BB2002E86A6 /* sms-received.wav */,
 			);
 			path = Resources;
@@ -1102,6 +1116,18 @@
 			);
 			name = UpdatePassword;
 			path = AboutVC/UpdatePassword;
+			sourceTree = "<group>";
+		};
+		843774CC1DA7832E001071B2 /* LaterBooking */ = {
+			isa = PBXGroup;
+			children = (
+				843774D31DA783E5001071B2 /* VCLaterBooking.h */,
+				843774D41DA783E5001071B2 /* VCLaterBooking.m */,
+				843774D61DA789F3001071B2 /* LaterBookingTableViewCell.h */,
+				843774D71DA789F3001071B2 /* LaterBookingTableViewCell.m */,
+				843774D81DA789F3001071B2 /* LaterBookingTableViewCell.xib */,
+			);
+			name = LaterBooking;
 			sourceTree = "<group>";
 		};
 		948ED5F218EEAD310082F7F7 /* Views */ = {
@@ -1900,6 +1926,7 @@
 		C28FF89518AA251E009A191F /* Roadyo */ = {
 			isa = PBXGroup;
 			children = (
+				843774CC1DA7832E001071B2 /* LaterBooking */,
 				3D8B2DF91CBCC6F300A33357 /* Reset password */,
 				94E760FD18E55A3400EB41AE /* AppDelegate */,
 				C287BA3918AC83F200543129 /* Upload Image */,
@@ -2449,7 +2476,7 @@
 				ORGANIZATIONNAME = "Rahul Sharma";
 				TargetAttributes = {
 					C28FF88B18AA251E009A191F = {
-						DevelopmentTeam = 2P9N9P2QS2;
+						DevelopmentTeam = MMVGVUJYAG;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -2457,7 +2484,7 @@
 						};
 					};
 					C28FF8AC18AA251E009A191F = {
-						DevelopmentTeam = 2P9N9P2QS2;
+						DevelopmentTeam = MMVGVUJYAG;
 						TestTargetID = C28FF88B18AA251E009A191F;
 					};
 				};
@@ -2624,6 +2651,7 @@
 				C29E2F7A19C98147009F8D71 /* support_ride@2x.png in Resources */,
 				C29EACC9192C98D7009585A1 /* menu_support_on@2x.png in Resources */,
 				1406FD531AA8253F00A715C1 /* 750X1334.png in Resources */,
+				843774E41DA7A50E001071B2 /* sigma-1-beep.mp3 in Resources */,
 				198A08F31BBA691E00FD01FF /* paymentArrow@2x.png in Resources */,
 				1406FD561AA8253F00A715C1 /* 1536X2008.png in Resources */,
 				C251C88619683360007702D1 /* conformation_btn_booknow_off@2x.png in Resources */,
@@ -2648,6 +2676,7 @@
 				3DA047B81BBAD7E800585217 /* LogIn-Text-Bg.png in Resources */,
 				C2461BFA18FD413F00CBB634 /* payment_expense_trip_bg@2x.png in Resources */,
 				C28ADA27192394C80044130E /* map_arrow@2x.png in Resources */,
+				843774DA1DA789F3001071B2 /* LaterBookingTableViewCell.xib in Resources */,
 				C298F8AA191A22EF00C837D5 /* calender_pickuplocation_icon@2x.png in Resources */,
 				C2F35546190E37030002E75E /* signuppayment_btn_scancard_on@2x.png in Resources */,
 				C29B4B871907988200F5A37E /* home_carinfo_caricon_green@2x.png in Resources */,
@@ -2668,6 +2697,7 @@
 				C29ABD4218F81449000A5A0E /* billing_pricedivider@2x.png in Resources */,
 				3096159C1C75DEB7001E1A72 /* 290x43.png in Resources */,
 				C295253118DDA1EA00BC280A /* home_navigationbar_shadow@2x.png in Resources */,
+				843774E51DA7A50E001071B2 /* sigma-incoming-request.mp3 in Resources */,
 				C28FF8A818AA251E009A191F /* Images.xcassets in Resources */,
 				C29EACCC192C98D7009585A1 /* menu_user@2x.png in Resources */,
 				C295E4D518C766DB00CE48DB /* check_button.png in Resources */,
@@ -2838,6 +2868,8 @@
 				3DE98F9B1BBD65AE00A8F1B4 /* UpdatePasswordViewController.m in Sources */,
 				C25BF75C19D7FE1D00C63587 /* UIImage+MultiFormat.m in Sources */,
 				C2B7F79F19DACF14001FBD45 /* MessageViewController.m in Sources */,
+				843774D51DA783E5001071B2 /* VCLaterBooking.m in Sources */,
+				843774D91DA789F3001071B2 /* LaterBookingTableViewCell.m in Sources */,
 				C24FAC9219D843C6002FE8F7 /* PTKComponent.m in Sources */,
 				C239CA9C18F91A3C00929F0D /* fareCalculatorViewController.m in Sources */,
 				C29EACB6192C8928009585A1 /* LocationServicesMessageVC.m in Sources */,
@@ -2993,10 +3025,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 2P9N9P2QS2;
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -3018,7 +3050,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PROVISIONING_PROFILE = "c5a34b94-45ac-4978-98b0-32673b727e29";
+				PROVISIONING_PROFILE = "88d16ec6-c834-4bbc-a966-2b20e5a295f5";
 				SDKROOT = iphoneos;
 				VALID_ARCHS = "armv7 armv7s arm64";
 			};
@@ -3041,10 +3073,10 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 2P9N9P2QS2;
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -3059,7 +3091,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PROVISIONING_PROFILE = "c5a34b94-45ac-4978-98b0-32673b727e29";
+				PROVISIONING_PROFILE = "88d16ec6-c834-4bbc-a966-2b20e5a295f5";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -3073,9 +3105,9 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				DEVELOPMENT_TEAM = 2P9N9P2QS2;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3097,9 +3129,9 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CustomAppsTeam.CustomAppsTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appypie.appypie;
 				PRODUCT_NAME = CarConnect;
-				PROVISIONING_PROFILE = "c5a34b94-45ac-4978-98b0-32673b727e29";
+				PROVISIONING_PROFILE = "88d16ec6-c834-4bbc-a966-2b20e5a295f5";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
@@ -3114,9 +3146,9 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				DEVELOPMENT_TEAM = 2P9N9P2QS2;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3138,10 +3170,10 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.CustomAppsTeam.CustomAppsTeam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appypie.appypie;
 				PRODUCT_NAME = CarConnect;
-				PROVISIONING_PROFILE = "c5a34b94-45ac-4978-98b0-32673b727e29";
-				PROVISIONING_PROFILE_SPECIFIER = CustomMobileAppsTeam;
+				PROVISIONING_PROFILE = "88d16ec6-c834-4bbc-a966-2b20e5a295f5";
+				PROVISIONING_PROFILE_SPECIFIER = "Appypie test link";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
@@ -3154,9 +3186,9 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				DEVELOPMENT_TEAM = 2P9N9P2QS2;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3171,7 +3203,7 @@
 				);
 				INFOPLIST_FILE = "privMDTests/CarConnectTests-Info.plist";
 				PRODUCT_NAME = CarConnectTests;
-				PROVISIONING_PROFILE = "c5a34b94-45ac-4978-98b0-32673b727e29";
+				PROVISIONING_PROFILE = "88d16ec6-c834-4bbc-a966-2b20e5a295f5";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarConnect.app/CarConnect";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -3182,9 +3214,9 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravinesh Raj (K2TFWDRZJF)";
-				DEVELOPMENT_TEAM = 2P9N9P2QS2;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3195,7 +3227,7 @@
 				GCC_PREFIX_HEADER = "privMD/CarConnect-Prefix.pch";
 				INFOPLIST_FILE = "privMDTests/CarConnectTests-Info.plist";
 				PRODUCT_NAME = CarConnectTests;
-				PROVISIONING_PROFILE = "c5a34b94-45ac-4978-98b0-32673b727e29";
+				PROVISIONING_PROFILE = "88d16ec6-c834-4bbc-a966-2b20e5a295f5";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarConnect.app/CarConnect";
 				WRAPPER_EXTENSION = xctest;
 			};

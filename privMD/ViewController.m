@@ -108,7 +108,11 @@
         vc = [storyboard instantiateViewControllerWithIdentifier:@"appointmentViewController"];
         return vc;
     }
-    if (indexPath.row == 2)
+    if(indexPath.row == 2){
+        vc = [storyboard instantiateViewControllerWithIdentifier:@"LaterBooking"];
+        return vc;
+    }
+    if (indexPath.row == 3)
     {
         PatientAppDelegate *appDelegate = (PatientAppDelegate *)[[UIApplication sharedApplication] delegate];
         appDelegate._IsShowPaymentMODE=YES;
@@ -116,7 +120,7 @@
         return vc;
     }
     
-    if (indexPath.row == 3)
+    if (indexPath.row == 4)
     {
       
       
@@ -137,12 +141,12 @@
 //    }
 
     
-    else if(indexPath.row == 4)
+    else if(indexPath.row == 5)
     {
         vc = [storyboard instantiateViewControllerWithIdentifier:@"resetPwdViewController"];
         return vc;
     }
-    else if(indexPath.row == 5)
+    else if(indexPath.row == 6)
     {
          vc = [storyboard instantiateViewControllerWithIdentifier:@"aboutVC"];
          return vc;

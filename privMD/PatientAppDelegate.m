@@ -416,7 +416,7 @@ void uncaughtExceptionHandler(NSException *exception) {
     //play sound
     SystemSoundID	pewPewSound;
     NSString *pewPewPath = [[NSBundle mainBundle]
-                            pathForResource:@"sms-received" ofType:@"wav"];
+                            pathForResource:@"sigma-1-beep" ofType:@"mp3"];
     NSURL *pewPewURL = [NSURL fileURLWithPath:pewPewPath];
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)pewPewURL, & pewPewSound);
     AudioServicesPlaySystemSound(pewPewSound);

@@ -46,7 +46,7 @@
 {
     
     [Helper setToLabel:topViewevery1Label Text:@"Sigma" WithFont:Trebuchet_MS FSize:13 Color:[UIColor blackColor]];
-    [Helper setToLabel:topviewroadyoLabel Text:@"www.Sigma.com" WithFont:Trebuchet_MS FSize:11 Color:[UIColor blueColor]];
+    [Helper setToLabel:topviewroadyoLabel Text:@"www.ridesigma.com" WithFont:Trebuchet_MS FSize:11 Color:[UIColor blueColor]];
 
     [Helper setButton:rateButton Text:@"Rate us on the App Store" WithFont:Trebuchet_MS FSize:15 TitleColor:[UIColor blackColor] ShadowColor:nil];
     rateButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;

@@ -115,13 +115,13 @@ static XDKAirMenuController *controller = nil;
 {
     [super viewDidLoad];
     
-    _images_off = [[NSArray alloc]initWithObjects:@"menu_home",@"menu_booking",@"menu_payment",@"menu_user",@"menu_user",@"menu_info",@"menu_logout", nil];
+    _images_off = [[NSArray alloc]initWithObjects:@"menu_home",@"menu_booking",@"menu_logout",@"menu_payment",@"menu_user",@"menu_user",@"menu_info",@"menu_logout", nil];
     
-    _images_on = [[NSArray alloc]initWithObjects:@"menu_home_on",@"menu_booking_on",@"menu_payment_on",@"menu_user_on",@"menu_user_on",@"menu_info_on",@"menu_logout_on", nil];
+    _images_on = [[NSArray alloc]initWithObjects:@"menu_home_on",@"menu_booking_on",@"menu_logout",@"menu_payment_on",@"menu_user_on",@"menu_user_on",@"menu_info_on",@"menu_logout_on", nil];
     
 
     
-    _menuTitle = [[NSArray alloc]initWithObjects:@"HOME",@"HISTORY",@"PAYMENT",@"PROFILE",@"RESET PASSWORD",@"ABOUT",@"LOGOUT",nil];
+    _menuTitle = [[NSArray alloc]initWithObjects:@"HOME",@"HISTORY",@"MY LATER BOOKING",@"PAYMENT",@"PROFILE",@"RESET PASSWORD",@"ABOUT",@"LOGOUT",nil];
 
     
     
@@ -526,7 +526,7 @@ static XDKAirMenuController *controller = nil;
 //    }
 
 
-if (indexPath.row ==6){
+if (indexPath.row ==7){
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Confirm" message:@"Are you sure you want to logout?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes", nil];
         [alertView show];
     }

@@ -44,8 +44,8 @@
     [link1Button setTitle:@"Terms and Conditions" forState:UIControlStateNormal];
     [link1Button setTitle:@"Terms and Conditions" forState:UIControlStateSelected];
     [link1Button setShowsTouchWhenHighlighted:YES];
-    [link1Button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [link1Button setTitleColor:WHITE_COLOR forState:UIControlStateHighlighted];
+    [link1Button setTitleColor:BLACK_COLOR forState:UIControlStateNormal];
+    [link1Button setTitleColor:BLACK_COLOR forState:UIControlStateHighlighted];
     link1Button.titleLabel.font = [UIFont fontWithName:Trebuchet_MS size:15];
     [link1Button setBackgroundColor:BUTTON_BG_Color];
     
@@ -59,8 +59,8 @@
     [link2Button setTitle:@"Privacy Policy" forState:UIControlStateNormal];
     [link2Button setTitle:@"Privacy Policy" forState:UIControlStateSelected];
     [link2Button setShowsTouchWhenHighlighted:YES];
-    [link2Button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    [link2Button setTitleColor:WHITE_COLOR forState:UIControlStateHighlighted];
+    [link2Button setTitleColor:BLACK_COLOR forState:UIControlStateNormal];
+    [link2Button setTitleColor:BLACK_COLOR forState:UIControlStateHighlighted];
     link2Button.titleLabel.font = [UIFont fontWithName:Trebuchet_MS size:15];
     [link2Button setBackgroundColor:BUTTON_BG_Color];
     
