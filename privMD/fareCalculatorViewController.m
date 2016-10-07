@@ -168,7 +168,7 @@
             _paymentLabel.hidden = YES;
            
             
-            NSArray *fareArr = [responseDictionary objectForKey:@"content"];
+            NSArray *fareArr = [[responseDictionary objectForKey:@"content"] objectAtIndex:0];
             self.firstFarelabel.text = [NSString stringWithFormat:@"%@ KM =  %@ \n",[[fareArr objectAtIndex:0] objectForKey:@"description"],[[fareArr objectAtIndex:0]  objectForKey:@"amount"]];
             self.secondFareLabel.text = [NSString stringWithFormat:@"%@ KM =  %@ \n",[[fareArr objectAtIndex:1] objectForKey:@"description"],[[fareArr objectAtIndex:1]  objectForKey:@"amount"]];
             self.thirdFareLable.text = [NSString stringWithFormat:@"%@ KM =  %@ \n",[[fareArr objectAtIndex:2] objectForKey:@"description"],[[fareArr objectAtIndex:2]  objectForKey:@"amount"]];

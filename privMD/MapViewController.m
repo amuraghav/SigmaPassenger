@@ -4194,6 +4194,7 @@ bool isComingTocheckCarTypes;
 
 - (void)handleSingleTap:(UIGestureRecognizer *)recognizer
 {
+    if(!isPopLockSelected){
     UIView *v = [self.view viewWithTag:myCustomMarkerTag];
     v.hidden = YES;
     CALayer *mainViewLayer = self.view.layer;
@@ -4207,7 +4208,7 @@ bool isComingTocheckCarTypes;
     NSInteger type_id = [_arrayOfCarTypes[carTypesForLiveBooking-1][@"type_id"]integerValue];
 
     [self addCustomCarButtonPressedView:type_id];
-    
+    }
 }
 -(void)clearTheMapBeforeChagingTheCarTypes {
     
@@ -4785,7 +4786,7 @@ bool isComingTocheckCarTypes;
     }
     NSString *curreny =  [PatientGetLocalCurrency getCurrencyLocal:[flStrForObj(dict[@"basefare"]) floatValue]];
     
-    [Helper setToLabel:centerLabel1 Text:[NSString stringWithFormat:@"%@/Min BASE FARE",curreny] WithFont:Trebuchet_MS FSize:15 Color:UIColorFromRGB(0xffffff)];
+    [Helper setToLabel:centerLabel1 Text:[NSString stringWithFormat:@"%@ BASE FARE",curreny] WithFont:Trebuchet_MS FSize:15 Color:UIColorFromRGB(0xffffff)];
     [centerView addSubview:centerLabel1];
     UILabel *centerLabel3 = [[UILabel alloc]initWithFrame:CGRectMake(5,50,263,6)];
     centerLabel3.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"new_cardetails_divider"]];
@@ -4797,7 +4798,7 @@ bool isComingTocheckCarTypes;
     NSString *price_per_min =  [PatientGetLocalCurrency getCurrencyLocal:[flStrForObj(dict[@"price_per_min"]) floatValue]];
     NSString *price_per_km =  [PatientGetLocalCurrency getCurrencyLocal:[flStrForObj(dict[@"price_per_km"]) floatValue]];
     
-    [Helper setToLabel:centerLabel2 Text:[NSString stringWithFormat:@"%@ / Min and %@ / Mph",price_per_min,price_per_km] WithFont:Trebuchet_MS FSize:14 Color:UIColorFromRGB(0xffffff)];
+    [Helper setToLabel:centerLabel2 Text:[NSString stringWithFormat:@"%@ / Min and %@ / Mile",price_per_min,price_per_km] WithFont:Trebuchet_MS FSize:14 Color:UIColorFromRGB(0xffffff)];
     [centerView addSubview:centerLabel2];
     
     

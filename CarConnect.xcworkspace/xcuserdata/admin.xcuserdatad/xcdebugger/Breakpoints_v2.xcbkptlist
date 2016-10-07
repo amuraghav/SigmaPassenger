@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "496664587.219198"
+            timestampString = "497444212.710268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2274"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "496671215.350641"
+            timestampString = "497444212.710268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "733"
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "496923523.49581"
+            timestampString = "497452126.082994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5679"
-            endingLineNumber = "5679"
+            startingLineNumber = "5680"
+            endingLineNumber = "5680"
             landmarkName = "-fareButtonClicked"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "496909363.947721"
+            timestampString = "497452126.082994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5613"
-            endingLineNumber = "5613"
+            startingLineNumber = "5614"
+            endingLineNumber = "5614"
             landmarkName = "-fareButtonClicked"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "496909378.371582"
+            timestampString = "497452126.082994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5623"
-            endingLineNumber = "5623"
+            startingLineNumber = "5624"
+            endingLineNumber = "5624"
             landmarkName = "-fareButtonClicked"
             landmarkType = "7">
          </BreakpointContent>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "497191326.115278"
+            timestampString = "497452126.082994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5882"
-            endingLineNumber = "5882"
+            startingLineNumber = "5883"
+            endingLineNumber = "5883"
             landmarkName = "-getAddress:"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "497191345.298552"
+            timestampString = "497452126.082994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5877"
-            endingLineNumber = "5877"
+            startingLineNumber = "5878"
+            endingLineNumber = "5878"
             landmarkName = "-getAddress:"
             landmarkType = "7">
          </BreakpointContent>
@@ -362,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "497191380.793517"
+            timestampString = "497452126.082994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5978"
-            endingLineNumber = "5978"
+            startingLineNumber = "5979"
+            endingLineNumber = "5979"
             landmarkName = "-locationManager:didUpdateToLocation:fromLocation:"
             landmarkType = "7">
          </BreakpointContent>
@@ -378,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "497191449.159433"
+            timestampString = "497452126.082994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "4248"
-            endingLineNumber = "4248"
+            startingLineNumber = "4249"
+            endingLineNumber = "4249"
             landmarkName = "-changeMapMarker:"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,23 +394,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "497191458.687114"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1935"
-            endingLineNumber = "1935"
-            landmarkName = "-messageA2ComeshereWithFlag1:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "privMD/MapViewController.m"
-            timestampString = "497191466.35093"
+            timestampString = "497444212.710268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2086"
@@ -426,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "497191661.496865"
+            timestampString = "497444212.710268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "2528"
@@ -442,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "497191789.732863"
+            timestampString = "497444212.710268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1291"
@@ -458,7 +442,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "497192027.253682"
+            timestampString = "497444212.710268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1246"
@@ -554,11 +538,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
-            timestampString = "497279131.662679"
+            timestampString = "497452126.082994"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5553"
-            endingLineNumber = "5553"
+            startingLineNumber = "5554"
+            endingLineNumber = "5554"
             landmarkName = "-cardButtonClicked"
             landmarkType = "7">
          </BreakpointContent>
@@ -608,6 +592,182 @@
             startingLineNumber = "500"
             endingLineNumber = "500"
             landmarkName = "-sendRequestForPayAmount"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497444212.710268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3027"
+            endingLineNumber = "3027"
+            landmarkName = "-updateTheNearestDriverinSpinitCircle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497452126.082994"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4226"
+            endingLineNumber = "4226"
+            landmarkName = "-changeMapMarker:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497444212.710268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2064"
+            endingLineNumber = "2064"
+            landmarkName = "-messageA2ForTesting:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497444212.710268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3090"
+            endingLineNumber = "3090"
+            landmarkName = "-hideActivityIndicatorWithMessage"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497444212.710268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3031"
+            endingLineNumber = "3031"
+            landmarkName = "-updateTheNearestDriverinSpinitCircle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497444212.710268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3044"
+            endingLineNumber = "3044"
+            landmarkName = "-updateTheNearestDriverinSpinitCircle:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497452126.082994"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4198"
+            endingLineNumber = "4198"
+            landmarkName = "-handleSingleTap:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497452010.204161"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1935"
+            endingLineNumber = "1935"
+            landmarkName = "-messageA2ComeshereWithFlag1:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497452427.629037"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4207"
+            endingLineNumber = "4207"
+            landmarkName = "-handleSingleTap:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/MapViewController.m"
+            timestampString = "497452469.732194"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4789"
+            endingLineNumber = "4789"
+            landmarkName = "-addCustomCarButtonPressedView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/PatientGetLocalCurrency.m"
+            timestampString = "497452583.282354"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "+getCurrencyLocal:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
