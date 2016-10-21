@@ -646,7 +646,7 @@ static int isLocationChanged;
 //    NSString *ent_handicap_friendly =@"1";
 //    NSString *ent_pet_friendly =@"1";
     
-    paymentTypesForLiveBooking=2;
+    paymentTypesForLiveBooking=1;
     NSString *dateTime = [Helper getCurrentDateTime];
     @try {
       
@@ -1708,13 +1708,13 @@ static int isLocationChanged;
     NSInteger bookingID = [[NSUserDefaults standardUserDefaults] integerForKey:@"BOOKINGID"];
     NSInteger newBookingID =   Status;
     
-    if(bookingID != newBookingID && bookingID < newBookingID)
-    {
-        return YES; //yes its a new booking
-    }
-    else {
-        return NO; //old booking
-    }
+    return (bookingID == newBookingID || bookingID < newBookingID)?(TRUE):(FALSE);
+//    {
+//        return YES; //yes its a new booking
+//    }
+//    else {
+//        return NO; //old booking
+//    }
 }
 
 -(BOOL)checkIfBokkedOrNot {
@@ -1748,6 +1748,8 @@ static int isLocationChanged;
     BOOL isDriverCancel = [[NSUserDefaults standardUserDefaults]boolForKey:@"isDriverCanceledBookingOnce"];
     BOOL isAlreadyBooked = [self checkIfBokkedOrNot];
     BOOL isNewBooking = [self checkBookingID:[messageDict[@"bid"] integerValue]];
+//    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"punnub" message:[NSString stringWithFormat:@"%@",messageDict] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+//    [alert show];
     if (isNewBooking) {
         if (isDriverCancel && isAlreadyBooked) {
             
@@ -2263,27 +2265,45 @@ bool isComingTocheckCarTypes;
 {
     NSLog(@"%@",channelName);
     NSLog(@" %@",messageDict);
+    
+//    UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"pubnub Report" message:[NSString stringWithFormat:@"%@",messageDict] delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+//        [alert1 show];
     //TELogInfo(@"recievedMessage %@ on channel %@",messageDict,channelName);
+    
+    
+    [[NSUserDefaults standardUserDefaults] setInteger:[messageDict[@"bid"] integerValue] forKey:@"BOOKINGID"];
     
     if ([messageDict[@"a"] integerValue] == 5 && [messageDict[@"flag"] intValue] == 0) // driver cancel the booking
     {
+//        UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"pubnub Report" message:[NSString stringWithFormat:@"%@",messageDict] delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+//        [alert1 show];
         [self messageA5ComesHere:messageDict];
     }
     else if ([messageDict[@"a"] integerValue] == 6 && [messageDict[@"flag"] intValue] == 0) // driver is on the way
     {
+//        UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"driver is on the way" message:[NSString stringWithFormat:@"%@",messageDict] delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+//        [alert1 show];
         [self messageA6ComesHere:messageDict];
         
     }
     else if ([messageDict[@"a"] integerValue] == 7 && [messageDict[@"flag"] intValue] == 0) //driver is reached on pickup locaiton
     {
+//        UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"driver is reached on pickup locaiton" message:[NSString stringWithFormat:@"%@",messageDict] delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+//        [alert1 show];
         [self messageA7ComesHere:messageDict];
     }
     else if ([messageDict[@"a"] integerValue] == 8 && [messageDict[@"flag"] intValue] == 0) //driver is reached on pickup locaiton
     {
+//        UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"driver is reached on pickup locaiton" message:[NSString stringWithFormat:@"%@",messageDict] delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+//        [alert1 show];
+        
         [self messageA8ComesHere:messageDict];
     }
     else if ([messageDict[@"a"] integerValue] == 9 && [messageDict[@"flag"] intValue] == 0) //booking complete
     {
+//        UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"booking complete" message:[NSString stringWithFormat:@"%@",messageDict] delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+//        [alert1 show];
+        
         [self messageA9Comeshere:messageDict];
     }
     else if ([channelName isEqualToString:_patientPubNubChannel] && [messageDict[@"a"] intValue] == 2)  {
@@ -3321,8 +3341,13 @@ bool isComingTocheckCarTypes;
     [txtfCarTypes setTextAlignment:NSTextAlignmentCenter];
     [txtfCarTypes setBackground:[UIImage imageNamed:@"LogIn-Text-Bg.png"]];
     [txtfCarTypes setDelegate:self];
+        NSDateFormatter *formatter;
+        NSString        *dateString;
+        formatter = [[NSDateFormatter alloc] init];
+        [formatter setDateFormat:@"yyyy-MM-dd"];
+        dateString = [formatter stringFromDate:[NSDate date]];
     [txtfCarTypes setPlaceholder:@"Select Date"];
-    [txtfCarTypes setText:@""];
+    [txtfCarTypes setText:dateString];
     [viewSelectCarTypes addSubview:txtfCarTypes];
     [viewCarTypes addSubview:viewSelectCarTypes];
     
@@ -3333,8 +3358,15 @@ bool isComingTocheckCarTypes;
     [txtftime setTextAlignment:NSTextAlignmentCenter];
     [txtftime setBackground:[UIImage imageNamed:@"LogIn-Text-Bg.png"]];
     [txtftime setDelegate:self];
+        
+        
+        NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+        NSDateComponents *components = [[NSDateComponents alloc] init];
+        [components setHour:1];
+        NSDate *newDate= [calendar dateByAddingComponents:components toDate:[NSDate date] options:0];
+        [formatter setDateFormat:@"HH:mm:ss"];
     [txtftime setPlaceholder:@"Select Time"];
-    [txtftime setText:@""];
+    [txtftime setText:[formatter stringFromDate:newDate]];
     [viewSelectTime addSubview:txtftime];
     [viewCarTypes addSubview:viewSelectTime];
     
@@ -3467,7 +3499,16 @@ bool isComingTocheckCarTypes;
          forControlEvents:UIControlEventValueChanged];
     [txtftime setInputView:timePicker];
     
+    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    NSDate *currentDate = [NSDate date];
+    NSDateComponents *comps = [[NSDateComponents alloc] init];
+    [comps setHour:1];
+//    NSDate *maxDate = [calendar dateByAddingComponents:comps toDate:currentDate options:0];
+//    [comps setYear:-30];
+    NSDate *minDate = [calendar dateByAddingComponents:comps toDate:currentDate options:0];
     
+//    [datePicker setMaximumDate:maxDate];
+    [timePicker setMinimumDate:minDate];
     
     
     UIBarButtonItem *spaceBarItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
@@ -3896,7 +3937,7 @@ bool isComingTocheckCarTypes;
     
     driverEmail=@"";
     laterSelectedDate =[NSString stringWithFormat:@"%@ %@",Date,time];
-    paymentTypesForLiveBooking=2;
+    paymentTypesForLiveBooking=1;
     promocode_id=@"";
     cardId=@"";
     NSTimeZone *timeZone = [NSTimeZone localTimeZone];
@@ -4932,9 +4973,9 @@ bool isComingTocheckCarTypes;
     [requestButton setTitleColor:UIColorFromRGB(0x333333) forState:UIControlStateSelected];
     [requestButton setBackgroundColor:BUTTON_BG_Color];
     
-    [requestButton addTarget:self action:@selector(sendAppointmentRequestForLiveBooking) forControlEvents:UIControlEventTouchUpInside];
-    requestButton.tag = 500;
-    
+   // [requestButton addTarget:self action:@selector(sendAppointmentRequestForLiveBooking) forControlEvents:UIControlEventTouchUpInside];
+   // requestButton.tag = 500;
+   //
     UIView *customBottomView=nil;
     
 //    if(isPopLockSelected){
@@ -5682,7 +5723,7 @@ bool isComingTocheckCarTypes;
             invoiceVC.locationDetails = params;
             invoiceVC.isComingFromMapVC = YES;
             invoiceVC.carTypesForLiveBookingServer = carTypesForLiveBookingServer;
-             invoiceVC.isPopLockSelected  = true;
+             invoiceVC.isPopLockSelected  = FALSE;
             _isSelectinLocation = YES;
             UINavigationController *navBar=[[UINavigationController alloc]initWithRootViewController:invoiceVC];
             [self presentViewController:navBar animated:YES completion:nil];
@@ -6295,6 +6336,19 @@ bool isComingTocheckCarTypes;
             [ud setObject:response[@"model"] forKey:@"MODEL"];
             [ud setObject:response[@"plateNo"] forKey:@"PLATE"];
             [ud setObject:response[@"chn"] forKey:@"subscribedChannel"];
+            
+           
+            NSArray *driverLatitudeLongitudeLater = [response[@"ltg"] componentsSeparatedByString:@","];
+            _driverCurLat = [driverLatitudeLongitudeLater[0] doubleValue];
+            _driverCurLong = [driverLatitudeLongitudeLater[1]doubleValue];
+
+                    NSUserDefaults *udPlotting = [NSUserDefaults standardUserDefaults];
+                    [udPlotting setDouble:[response[@"pickLat"] doubleValue] forKey:@"srcLat"];
+                    [udPlotting setDouble:[response[@"pickLong"] doubleValue]forKey:@"srcLong"];
+                    [udPlotting setDouble:[response[@"dropLat"] doubleValue] forKey:@"desLat"];
+                    [udPlotting setDouble:[response[@"dropLong"] doubleValue]forKey:@"desLong"];
+            
+//                  [self updateDestinationLocationWithLatitude:latitude Longitude:longitude];
             
             subscribedChannel = response[@"chn"];
             [(PatientAppDelegate*)[[UIApplication sharedApplication] delegate]noPushForceChangingController:response :6];

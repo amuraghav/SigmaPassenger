@@ -87,7 +87,7 @@
                                        target:nil action:nil];
     negativeSpacer.width = -16;// it was -6 in iOS 6  you can set this as per your preference
     
-    [self.navigationItem setLeftBarButtonItems:[NSArray arrayWithObjects:negativeSpacer,containingcancelButton, nil] animated:NO];
+//    [self.navigationItem setLeftBarButtonItems:[NSArray arrayWithObjects:negativeSpacer,containingcancelButton, nil] animated:NO];
     
 }
 -(void)createPayButton{
@@ -154,6 +154,7 @@
     [self.navigationController.navigationBar
      setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],NSFontAttributeName: [UIFont fontWithName:@"TrebuchetMS-Bold" size:17]}];
     self.navigationController.navigationBar.translucent = NO;
+   
     
     
     
@@ -450,16 +451,16 @@
    
    
     if ( [reachability isNetworkAvailable]) {
-        if(self.tipField.text.length==0  || [tipAmount isEqualToString:@"Enter tip %"])
-        {
-            UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Alert" message:@"Please Enter Tip Amount" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-            [alert show];
-            return;
-        }
-        else
-        {
+//        if(self.tipField.text.length==0  || [tipAmount isEqualToString:@"Enter tip %"])
+//        {
+////            UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Alert" message:@"Please Enter Tip Amount" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+////            [alert show];
+////            return;
+//        }
+//        else
+//        {
             [self sendRequestForPayAmount];
-        }
+//        }
     }
     else {
         ProgressIndicator *pi = [ProgressIndicator sharedInstance];
@@ -482,7 +483,8 @@
     else {
         deviceID = [[NSUserDefaults standardUserDefaults]objectForKey:kPMDDeviceIdKey];
     }
-    
+    tipAmount =[NSString stringWithFormat:@"%0.02f",[self.tipField.text doubleValue]];
+    if(tipAmount.length>0){
    
     
     NSString *appointmntDate = self.appointmentDate;
@@ -510,6 +512,10 @@
                                        [pi hideProgressIndicator];
                                    }
                                }];
+    }
+    else{
+       [self parsePayAmountResponse:nil];
+    }
     
     
 }
@@ -738,6 +744,10 @@
         
         TELogInfo(@"kSMGetAppointmentDetialINVOICE %@",params);
         //setup request
+        
+//        UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"Cancel Report" message:[NSString stringWithFormat:@"%@/nSTATUS",params] delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+//        [alert1 show];
+        
         NetworkHandler *networHandler = [NetworkHandler sharedInstance];
         [networHandler composeRequestWithMethod:kSMGetAppointmentDetial
                                         paramas:params
@@ -804,6 +814,7 @@
             [Helper setToLabel:bookingIDText Text:bid WithFont:Trebuchet_MS FSize:18 Color:BLACK_COLOR];
             
             [Helper setToLabel:avgSpeedText Text:[NSString stringWithFormat:@"%.2f MPH",[response[@"avgSpeed"] doubleValue]] WithFont:Trebuchet_MS FSize:12 Color:UIColorFromRGB(0x000000)];
+            
             
             [Helper setToLabel:_totalDistanceLabel Text:[NSString stringWithFormat:@"%@ Miles",flStrForObj(response[@"dis"])] WithFont:Trebuchet_MS FSize:14 Color:UIColorFromRGB(0x000000)];
             
@@ -998,4 +1009,17 @@
         
     }
 }
+
+
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    NSString *currentString = [textField.text stringByReplacingCharactersInRange:range withString:string];
+    int length = (int)[currentString length];
+    if (length > 3) {
+        return NO;
+    }
+    return YES;
+}
+
 @end
