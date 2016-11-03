@@ -11,6 +11,13 @@
             continueAfterRunningActions = "No"
             filePath = "privMD/BookingDirectionViewController.m"
             timestampString = "498642540.783069"
+<<<<<<< HEAD
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "-sendRequestForCancelAppointment"
+=======
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "161"
@@ -48,6 +55,59 @@
             startingLineNumber = "209"
             endingLineNumber = "209"
             landmarkName = "-parseCancelAppointmentResponse:"
+>>>>>>> b41065325bc9b4b3e3c015bfc0a83da5e5a9ef6e
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+<<<<<<< HEAD
+            filePath = "privMD/BookingDirectionViewController.m"
+            timestampString = "498642944.399657"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "-parseCancelAppointmentResponse:"
+=======
+            filePath = "privMD/MapViewController.m"
+            timestampString = "498643111.327101"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6846"
+            endingLineNumber = "6846"
+            landmarkName = "-buttonClicked:"
+>>>>>>> b41065325bc9b4b3e3c015bfc0a83da5e5a9ef6e
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+<<<<<<< HEAD
+            filePath = "privMD/BookingDirectionViewController.m"
+            timestampString = "498642743.379824"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "-parseCancelAppointmentResponse:"
+=======
+            filePath = "privMD/MapViewController.m"
+            timestampString = "498643119.517453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6892"
+            endingLineNumber = "6892"
+            landmarkName = "-sendRequestForCancelAppointment"
+>>>>>>> b41065325bc9b4b3e3c015bfc0a83da5e5a9ef6e
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,6 +118,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "privMD/MapViewController.m"
+<<<<<<< HEAD
             timestampString = "498643111.327101"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -93,6 +154,11 @@
             timestampString = "498643122.222366"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+=======
+            timestampString = "498643122.222366"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+>>>>>>> b41065325bc9b4b3e3c015bfc0a83da5e5a9ef6e
             startingLineNumber = "6900"
             endingLineNumber = "6900"
             landmarkName = "-parseCancelAppointmentResponse:"
@@ -139,11 +205,18 @@
             continueAfterRunningActions = "No"
             filePath = "privMD/PatientAppDelegate.m"
             timestampString = "498663451.450887"
+<<<<<<< HEAD
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "276"
             endingLineNumber = "276"
             landmarkName = "-noPushForceChangingController::"
+=======
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "-handlePushNotificationWithLaunchOption:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -160,6 +233,49 @@
             startingLineNumber = "351"
             endingLineNumber = "351"
             landmarkName = "-noPushForceChangingController::"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "privMD/SignInViewController.m"
+            timestampString = "498723752.07109"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1105"
+            endingLineNumber = "1105"
+            landmarkName = "-loginResponseFB:"
+>>>>>>> b41065325bc9b4b3e3c015bfc0a83da5e5a9ef6e
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+<<<<<<< HEAD
+            filePath = "privMD/PatientAppDelegate.m"
+            timestampString = "498663504.745927"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "351"
+            endingLineNumber = "351"
+            landmarkName = "-noPushForceChangingController::"
+=======
+            filePath = "privMD/SignInViewController.m"
+            timestampString = "498723770.414729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1031"
+            endingLineNumber = "1031"
+            landmarkName = "-ServiceForFBLogin:"
+>>>>>>> b41065325bc9b4b3e3c015bfc0a83da5e5a9ef6e
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
