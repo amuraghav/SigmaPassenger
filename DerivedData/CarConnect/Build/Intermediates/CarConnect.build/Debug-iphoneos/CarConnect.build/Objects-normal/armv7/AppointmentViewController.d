@@ -1,15 +1,16 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/AppointmentViewController.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/AppointmentViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/CalendarKit.h \
-  /Users/rakesh/Desktop/CarConnect-4/CKCalendarEvent.h \
-  /Users/rakesh/Desktop/CarConnect-4/CKCalendarViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/CKCalendarDataSource.h \
-  /Users/rakesh/Desktop/CarConnect-4/CKCalendarDelegate.h \
-  /Users/rakesh/Desktop/CarConnect-4/CKCalendarView.h \
-  /Users/rakesh/Desktop/CarConnect-4/CKCalendarViewModes.h \
-  /Users/rakesh/Desktop/CarConnect-4/NSCalendar+DateComparison.h \
-  /Users/rakesh/Desktop/CarConnect-4/CKCalendarHeaderView.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/XDKAirMenuController.h \
-  /Users/rakesh/Desktop/CarConnect-4/CustomNavView/CustomNavigationBar.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/InvoiceViewController.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/AppointmentViewController.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/AppointmentViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CalendarKit.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CKCalendarEvent.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CKCalendarViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CKCalendarDataSource.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CKCalendarDelegate.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CKCalendarView.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CKCalendarViewModes.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSCalendar+DateComparison.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CKCalendarHeaderView.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/XDKAirMenuController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CustomNavView/CustomNavigationBar.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/InvoiceViewController.h

@@ -1,2 +1,4 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/privMD/XDKMenuCell.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/XDKMenuCell.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/XDKMenuCell.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/XDKMenuCell.h

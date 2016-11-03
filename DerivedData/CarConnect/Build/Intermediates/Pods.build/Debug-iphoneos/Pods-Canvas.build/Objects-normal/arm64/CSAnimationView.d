@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/Canvas/CanvasLibrary/CSAnimationView.m \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/Canvas/CanvasLibrary/CSAnimationView.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/Canvas/CanvasLibrary/CSAnimation.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/Canvas/CanvasLibrary/CSAnimationView.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/Canvas/CanvasLibrary/CSAnimationView.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/Canvas/CanvasLibrary/CSAnimation.h

@@ -1,3 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/MessageViewController.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/MessageViewController.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/MessageViewController.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/MessageViewController.h

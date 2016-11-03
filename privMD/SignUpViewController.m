@@ -506,7 +506,8 @@ typedef enum {
     if ([dictrespone[@"errFlag"] intValue] == 0) {
         
         saveSignUpDetails = [[NSArray alloc]initWithObjects:firstNameTextField.text,lastNameTextField.text,emailTextField.text,phoneNoTextField.text,zipCodeTextField.text,passwordTextField.text,conPasswordTextField.text, nil];
-        
+        PatientAppDelegate *appDelegate = (PatientAppDelegate *)[[UIApplication sharedApplication] delegate];
+        appDelegate._IsShowPaymentMODE = FALSE;
         [self performSegueWithIdentifier:@"CardController" sender:self];
         
     }else{

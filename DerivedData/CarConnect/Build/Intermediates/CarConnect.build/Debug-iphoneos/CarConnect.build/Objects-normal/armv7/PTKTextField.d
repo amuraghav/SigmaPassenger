@@ -1,3 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKTextField.m \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKTextField.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKTextField.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKTextField.h

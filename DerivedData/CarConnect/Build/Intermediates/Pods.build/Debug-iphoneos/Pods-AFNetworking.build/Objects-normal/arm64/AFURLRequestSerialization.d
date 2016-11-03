@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h

@@ -1,10 +1,10 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h

@@ -1,3 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/WebViewController.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/WebViewController.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/WebViewController.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/WebViewController.h

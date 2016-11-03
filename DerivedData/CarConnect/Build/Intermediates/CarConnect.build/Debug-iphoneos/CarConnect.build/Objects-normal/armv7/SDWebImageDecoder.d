@@ -1,3 +1,5 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/SDWebImageDecoder.m \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageDecoder.h \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageCompat.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageDecoder.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageDecoder.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageCompat.h

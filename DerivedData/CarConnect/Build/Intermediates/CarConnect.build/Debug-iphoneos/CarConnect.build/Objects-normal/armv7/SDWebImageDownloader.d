@@ -1,5 +1,7 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/SDWebImageDownloader.m \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageDownloader.h \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageCompat.h \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageOperation.h \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageDownloaderOperation.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageDownloader.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageDownloader.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageCompat.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageOperation.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageDownloaderOperation.h

@@ -1,4 +1,5 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/NSCalendar+DateComparison.m \
-  /Users/rakesh/Desktop/CarConnect-4/NSCalendar+DateComparison.h \
-  /Users/rakesh/Desktop/CarConnect-4/NSCalendar+Components.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSCalendar+DateComparison.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSCalendar+DateComparison.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSCalendar+Components.h

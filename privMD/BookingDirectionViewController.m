@@ -197,6 +197,7 @@ static float longitdeChange = 0.00234;
                                    
                                    if (success) { //handle success response
                                        TELogInfo(@"response %@",response);
+                                       NSLog(@"aaadddd%@",response);
                                        [self parseCancelAppointmentResponse:response];
                                    }
                                }];
@@ -212,6 +213,7 @@ static float longitdeChange = 0.00234;
     else if([response[@"errFlag"] integerValue] == 0 && [response[@"errNum"] integerValue] == 42)
     {
         [self.navigationController popToRootViewControllerAnimated:YES];
+        NSLog(@"aaadddd%@",response[@"errMsg"]);
         [Helper showAlertWithTitle:@"Message" Message:response[@"errMsg"]];
     }
     else if([response[@"errFlag"] integerValue] == 0 && [response[@"errNum"] integerValue] == 43)
@@ -1253,6 +1255,7 @@ static float longitdeChange = 0.00234;
     {
         if ([[responseDict objectForKey:@"errFlag"] integerValue] == 0)
         {
+                        
             if([[responseDict objectForKey:@"status"]integerValue] == 6)
             {
                 if([[[NSUserDefaults standardUserDefaults]objectForKey:@"NOPUSH"]integerValue] == 4)

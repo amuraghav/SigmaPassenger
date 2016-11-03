@@ -1,1 +1,3 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/TinderGenericUtility.m
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/TinderGenericUtility.m

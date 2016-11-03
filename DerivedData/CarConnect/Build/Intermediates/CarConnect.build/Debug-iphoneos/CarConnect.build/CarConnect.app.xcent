@@ -3,16 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>WKL2K3WY5L.com.ons.mypushapp</string>
+	<string>MMVGVUJYAG.com.appypie.appypie</string>
 	<key>aps-environment</key>
-	<string>development</string>
+	<string>production</string>
 	<key>com.apple.developer.team-identifier</key>
-	<string>WKL2K3WY5L</string>
+	<string>MMVGVUJYAG</string>
 	<key>get-task-allow</key>
-	<true/>
-	<key>keychain-access-groups</key>
-	<array>
-		<string>WKL2K3WY5L.com.ons.mypushapp</string>
-	</array>
+	<false/>
 </dict>
 </plist>

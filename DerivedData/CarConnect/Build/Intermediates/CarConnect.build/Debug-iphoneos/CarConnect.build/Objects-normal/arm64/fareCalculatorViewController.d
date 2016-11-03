@@ -1,4 +1,5 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/fareCalculatorViewController.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/fareCalculatorViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PickUpViewController.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/fareCalculatorViewController.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/fareCalculatorViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PickUpViewController.h

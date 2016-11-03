@@ -1,2 +1,3 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/SBJsonStreamParserAdapter.m
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SBJsonStreamParserAdapter.m

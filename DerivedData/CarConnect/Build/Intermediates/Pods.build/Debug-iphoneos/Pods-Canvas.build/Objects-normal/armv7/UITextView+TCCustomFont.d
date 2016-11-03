@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/Canvas/CanvasLibrary/UITextView+TCCustomFont.m \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/Canvas/CanvasLibrary/UITextView+TCCustomFont.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/Canvas/CanvasLibrary/UITextView+TCCustomFont.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/Canvas/CanvasLibrary/UITextView+TCCustomFont.h

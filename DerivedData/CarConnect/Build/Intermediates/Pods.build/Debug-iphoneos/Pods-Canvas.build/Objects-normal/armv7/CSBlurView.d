@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/Canvas/CanvasLibrary/CSBlurView.m \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/Canvas/CanvasLibrary/CSBlurView.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/Canvas/CanvasLibrary/CSBlurView.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/Canvas/CanvasLibrary/CSBlurView.h

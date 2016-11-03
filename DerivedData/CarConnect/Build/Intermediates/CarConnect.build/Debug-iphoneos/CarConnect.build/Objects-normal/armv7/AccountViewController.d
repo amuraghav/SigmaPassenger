@@ -1,15 +1,17 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/AccountViewController.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/AccountViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/UploadFiles.h \
-  /Users/rakesh/Desktop/CarConnect-4/RoundedImageView.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/XDKAirMenuController.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PatientViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/UIImageView+WebCache.h \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageCompat.h \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageManager.h \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageOperation.h \
-  /Users/rakesh/Desktop/CarConnect-4/SDWebImageDownloader.h \
-  /Users/rakesh/Desktop/CarConnect-4/SDImageCache.h \
-  /Users/rakesh/Desktop/CarConnect-4/CustomNavView/CustomNavigationBar.h \
-  /Users/rakesh/Desktop/CarConnect-4/Database.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/AccountViewController.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/AccountViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/UploadFiles.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/RoundedImageView.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/XDKAirMenuController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PatientViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/UIImageView+WebCache.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageCompat.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageManager.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageOperation.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDWebImageDownloader.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SDImageCache.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CustomNavView/CustomNavigationBar.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Database.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/AboutVC/UpdatePassword/UpdatePasswordViewController.h

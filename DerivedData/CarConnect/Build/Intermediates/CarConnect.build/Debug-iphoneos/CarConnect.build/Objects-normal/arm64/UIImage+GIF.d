@@ -1,2 +1,4 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/UIImage+GIF.m \
-  /Users/rakesh/Desktop/CarConnect-4/UIImage+GIF.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/UIImage+GIF.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/UIImage+GIF.h

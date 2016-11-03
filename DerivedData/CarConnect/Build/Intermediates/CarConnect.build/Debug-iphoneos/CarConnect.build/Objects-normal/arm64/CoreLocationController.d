@@ -1,2 +1,4 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/CoreLocationController.m \
-  /Users/rakesh/Desktop/CarConnect-4/CoreLocationController.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CoreLocationController.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CoreLocationController.h

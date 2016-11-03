@@ -1,3 +1,5 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/NSDate+Components.m \
-  /Users/rakesh/Desktop/CarConnect-4/NSDate+Components.h \
-  /Users/rakesh/Desktop/CarConnect-4/NSDateComponents+AllComponents.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSDate+Components.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSDate+Components.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSDateComponents+AllComponents.h

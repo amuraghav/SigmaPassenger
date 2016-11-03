@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/CocoaLumberjack/Classes/DDASLLogCapture.m \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/CocoaLumberjack/Classes/DDASLLogger.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/CocoaLumberjack/Classes/DDLog.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/CocoaLumberjack/Classes/DDASLLogCapture.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/CocoaLumberjack/Classes/DDASLLogCapture.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/CocoaLumberjack/Classes/DDASLLogger.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/CocoaLumberjack/Classes/DDLog.h

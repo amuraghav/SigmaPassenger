@@ -1,2 +1,4 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/iRate.m \
-  /Users/rakesh/Desktop/CarConnect-4/iRate.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/iRate.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/iRate.h

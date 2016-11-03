@@ -1,3 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PatientPubNubWrapper.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PatientPubNubWrapper.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PatientPubNubWrapper.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PatientPubNubWrapper.h

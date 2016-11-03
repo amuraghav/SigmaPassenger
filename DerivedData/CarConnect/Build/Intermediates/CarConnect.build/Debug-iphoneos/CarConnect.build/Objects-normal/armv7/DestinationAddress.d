@@ -1,2 +1,4 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/DestinationAddress.m \
-  /Users/rakesh/Desktop/CarConnect-4/DestinationAddress.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/DestinationAddress.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/DestinationAddress.h

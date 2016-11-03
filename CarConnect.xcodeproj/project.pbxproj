@@ -74,6 +74,9 @@
 		3DE98F9B1BBD65AE00A8F1B4 /* UpdatePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE98F9A1BBD65AE00A8F1B4 /* UpdatePasswordViewController.m */; };
 		3DFAD94C1C9BD22E009D8A53 /* Arrowcalender@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DFAD94A1C9BD22E009D8A53 /* Arrowcalender@2x.png */; };
 		3DFAD94D1C9BD22E009D8A53 /* Calender_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DFAD94B1C9BD22E009D8A53 /* Calender_icon@2x.png */; };
+		841B0A011DACF6EF00175950 /* My-Later-Ride.png in Resources */ = {isa = PBXBuildFile; fileRef = 841B0A001DACF6EF00175950 /* My-Later-Ride.png */; };
+		841B0A041DACFD0B00175950 /* menu_Later_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841B0A021DACFD0B00175950 /* menu_Later_on@2x.png */; };
+		841B0A051DACFD0B00175950 /* menu_Later@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841B0A031DACFD0B00175950 /* menu_Later@2x.png */; };
 		843774D51DA783E5001071B2 /* VCLaterBooking.m in Sources */ = {isa = PBXBuildFile; fileRef = 843774D41DA783E5001071B2 /* VCLaterBooking.m */; };
 		843774D91DA789F3001071B2 /* LaterBookingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843774D71DA789F3001071B2 /* LaterBookingTableViewCell.m */; };
 		843774DA1DA789F3001071B2 /* LaterBookingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843774D81DA789F3001071B2 /* LaterBookingTableViewCell.xib */; };
@@ -515,6 +518,9 @@
 		3DFAD94A1C9BD22E009D8A53 /* Arrowcalender@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrowcalender@2x.png"; sourceTree = "<group>"; };
 		3DFAD94B1C9BD22E009D8A53 /* Calender_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calender_icon@2x.png"; sourceTree = "<group>"; };
 		7C4BEC67E954A3E15FD3442D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		841B0A001DACF6EF00175950 /* My-Later-Ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My-Later-Ride.png"; sourceTree = "<group>"; };
+		841B0A021DACFD0B00175950 /* menu_Later_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_Later_on@2x.png"; sourceTree = "<group>"; };
+		841B0A031DACFD0B00175950 /* menu_Later@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_Later@2x.png"; sourceTree = "<group>"; };
 		843774D31DA783E5001071B2 /* VCLaterBooking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLaterBooking.h; sourceTree = "<group>"; };
 		843774D41DA783E5001071B2 /* VCLaterBooking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLaterBooking.m; sourceTree = "<group>"; };
 		843774D61DA789F3001071B2 /* LaterBookingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaterBookingTableViewCell.h; sourceTree = "<group>"; };
@@ -522,6 +528,7 @@
 		843774D81DA789F3001071B2 /* LaterBookingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaterBookingTableViewCell.xib; sourceTree = "<group>"; };
 		843774E21DA7A50E001071B2 /* sigma-1-beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sigma-1-beep.mp3"; sourceTree = "<group>"; };
 		843774E31DA7A50E001071B2 /* sigma-incoming-request.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sigma-incoming-request.mp3"; sourceTree = "<group>"; };
+		847D23391DB612AE001E3382 /* CarConnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarConnect.entitlements; sourceTree = "<group>"; };
 		9409209A18EAEBD3006DAF49 /* Fonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fonts.h; sourceTree = "<group>"; };
 		948ED5F618EEB2270082F7F7 /* PKView+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PKView+Private.h"; sourceTree = "<group>"; };
 		948ED5F718EEB2270082F7F7 /* PKView+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PKView+Private.m"; sourceTree = "<group>"; };
@@ -1842,6 +1849,10 @@
 		C28FF88318AA251E009A191F = {
 			isa = PBXGroup;
 			children = (
+				847D23391DB612AE001E3382 /* CarConnect.entitlements */,
+				841B0A021DACFD0B00175950 /* menu_Later_on@2x.png */,
+				841B0A031DACFD0B00175950 /* menu_Later@2x.png */,
+				841B0A001DACF6EF00175950 /* My-Later-Ride.png */,
 				3D5668DD1D49F3C40075E4BE /* Car-70x30@2x.png */,
 				3D5668DE1D49F3C40075E4BE /* Key-30x68@2x.png */,
 				3D5668DB1D49E6990075E4BE /* homeBg.png */,
@@ -2481,6 +2492,9 @@
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.Push = {
+								enabled = 1;
+							};
 						};
 					};
 					C28FF8AC18AA251E009A191F = {
@@ -2589,6 +2603,7 @@
 				C29ABD4418F81449000A5A0E /* billing_ratingstar_on@2x.png in Resources */,
 				C29EACD5192C98F5009585A1 /* menu_home_on@2x.png in Resources */,
 				C29D088F18F3DC900076D9E6 /* home_currentlocation_on@2x.png in Resources */,
+				841B0A011DACF6EF00175950 /* My-Later-Ride.png in Resources */,
 				C29EACC6192C98D7009585A1 /* menu_share@2x.png in Resources */,
 				C26E403A18F2A4290017ADA5 /* signup_btn_checkbox_off@2x.png in Resources */,
 				C295252F18DDA1EA00BC280A /* home_btn_menu_on@2x.png in Resources */,
@@ -2609,6 +2624,7 @@
 				C239CAA118F9206500929F0D /* conformation_icn_dropoff@2x.png in Resources */,
 				C24FAC9B19D843C6002FE8F7 /* cvc@2x.png in Resources */,
 				C26E402118F2712C0017ADA5 /* login_icn_user@2x.png in Resources */,
+				841B0A041DACFD0B00175950 /* menu_Later_on@2x.png in Resources */,
 				C29ABD4618F81449000A5A0E /* billing_background@2x.png in Resources */,
 				C29EACC7192C98D7009585A1 /* menu_info_on@2x.png in Resources */,
 				C29B4B881907988200F5A37E /* home_carinfo_caricon_red@2x.png in Resources */,
@@ -2748,6 +2764,7 @@
 				C26E403D18F2A4290017ADA5 /* signup_profile_image@2x.png in Resources */,
 				C251C88719683360007702D1 /* conformation_btn_booknow_on@2x.png in Resources */,
 				C29EACC4192C98D7009585A1 /* menu_logout@2x.png in Resources */,
+				841B0A051DACFD0B00175950 /* menu_Later@2x.png in Resources */,
 				C2544892194B13EC0002430E /* selectpayment_textlayout_middle@2x.png in Resources */,
 				C29EACD9192CB794009585A1 /* login_btn_login_on@2x.png in Resources */,
 				C26E403B18F2A4290017ADA5 /* signup_bg_namedetails_divider@2x.png in Resources */,
@@ -3105,6 +3122,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CarConnect.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
 				DEVELOPMENT_TEAM = MMVGVUJYAG;
@@ -3116,47 +3134,15 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "privMD/CarConnect-Prefix.pch";
-				INFOPLIST_FILE = "privMD/CarConnect-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/",
-					"$(PROJECT_DIR)/Flurry",
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AXRatingView\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Canvas\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
+					"\"${PODS_ROOT}/Headers/Public/PubNub\"",
+					"\"${PODS_ROOT}/Headers/Public/Stripe\"",
 				);
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-lc++",
-					"-ObjC",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appypie.appypie;
-				PRODUCT_NAME = CarConnect;
-				PROVISIONING_PROFILE = "88d16ec6-c834-4bbc-a966-2b20e5a295f5";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = 1;
-				VALID_ARCHS = "armv7 armv7s arm64";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		C28FF8C018AA251E009A191F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5AA3FBA18A78730DE45A349 /* Pods.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
-				DEVELOPMENT_TEAM = MMVGVUJYAG;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(PROJECT_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "privMD/CarConnect-Prefix.pch";
 				INFOPLIST_FILE = "privMD/CarConnect-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -3174,6 +3160,57 @@
 				PRODUCT_NAME = CarConnect;
 				PROVISIONING_PROFILE = "88d16ec6-c834-4bbc-a966-2b20e5a295f5";
 				PROVISIONING_PROFILE_SPECIFIER = "Appypie test link";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C28FF8C018AA251E009A191F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AA3FBA18A78730DE45A349 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = CarConnect.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ons Interactive Solutions Private Limited";
+				DEVELOPMENT_TEAM = MMVGVUJYAG;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "privMD/CarConnect-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/AXRatingView\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Canvas\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaLumberjack\"",
+					"\"${PODS_ROOT}/Headers/Public/PubNub\"",
+					"\"${PODS_ROOT}/Headers/Public/Stripe\"",
+				);
+				INFOPLIST_FILE = "privMD/CarConnect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appypie.appypie;
+				PRODUCT_NAME = CarConnect;
+				PROVISIONING_PROFILE = "88d16ec6-c834-4bbc-a966-2b20e5a295f5";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;

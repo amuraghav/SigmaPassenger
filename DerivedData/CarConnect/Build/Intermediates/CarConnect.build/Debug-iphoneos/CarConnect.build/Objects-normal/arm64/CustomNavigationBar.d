@@ -1,3 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/CustomNavView/CustomNavigationBar.m \
-  /Users/rakesh/Desktop/CarConnect-4/CustomNavView/CustomNavigationBar.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CustomNavView/CustomNavigationBar.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CustomNavView/CustomNavigationBar.h

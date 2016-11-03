@@ -1,2 +1,4 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/CKCalendarEvent.m \
-  /Users/rakesh/Desktop/CarConnect-4/CKCalendarEvent.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CKCalendarEvent.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CKCalendarEvent.h

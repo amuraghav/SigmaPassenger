@@ -1,4 +1,6 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/UIImage+MultiFormat.m \
-  /Users/rakesh/Desktop/CarConnect-4/UIImage+MultiFormat.h \
-  /Users/rakesh/Desktop/CarConnect-4/UIImage+GIF.h \
-  /Users/rakesh/Desktop/CarConnect-4/NSData+ImageContentType.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/UIImage+MultiFormat.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/UIImage+MultiFormat.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/UIImage+GIF.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSData+ImageContentType.h

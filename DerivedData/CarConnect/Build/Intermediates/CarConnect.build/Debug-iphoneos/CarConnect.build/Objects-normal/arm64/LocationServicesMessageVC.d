@@ -1,5 +1,6 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/LocationServicesMessageVC.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/LocationServicesMessageVC.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/ViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/XDKAirMenuController.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/LocationServicesMessageVC.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/LocationServicesMessageVC.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/ViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/XDKAirMenuController.h

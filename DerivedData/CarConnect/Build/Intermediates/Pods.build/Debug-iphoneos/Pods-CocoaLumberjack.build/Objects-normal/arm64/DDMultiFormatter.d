@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.m \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.h \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/CocoaLumberjack/Classes/DDLog.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/CocoaLumberjack/Classes/Extensions/DDMultiFormatter.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/CocoaLumberjack/Classes/DDLog.h

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LaterBookingTableViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UILabel *NameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *DateAndTimeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *DropLocationLabel;
 
 @end

@@ -48,8 +48,14 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>$(PRODUCT_NAME) Camera</string>
+	<key>NSContactsUsageDescription</key>
+	<string>$(PRODUCT_NAME) uses Contact</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Sigma Passenger would like to periodically access and use your devie's current or saved location to show drivers around.You can change this permission from Settings at any time.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) uses photos</string>
 	<key>Pushwoosh_APPID</key>
 	<string>EFE90-F0865</string>
 	<key>UIAppFonts</key>

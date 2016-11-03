@@ -1,2 +1,4 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/privMD/AppointedDoctor.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/AppointedDoctor.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/AppointedDoctor.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/AppointedDoctor.h

@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/Target\ Support\ Files/Pods-CocoaLumberjack/Pods-CocoaLumberjack-dummy.m
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/Target\ Support\ Files/Pods-CocoaLumberjack/Pods-CocoaLumberjack-dummy.m

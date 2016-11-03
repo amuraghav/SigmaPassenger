@@ -1,3 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/NSData+ImageContentType.m \
-  /Users/rakesh/Desktop/CarConnect-4/NSData+ImageContentType.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSData+ImageContentType.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSData+ImageContentType.h

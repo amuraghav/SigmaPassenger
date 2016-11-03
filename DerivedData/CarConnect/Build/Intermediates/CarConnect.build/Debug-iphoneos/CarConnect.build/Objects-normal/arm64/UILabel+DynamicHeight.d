@@ -1,3 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/LabelSize/UILabel+DynamicHeight.m \
-  /Users/rakesh/Desktop/CarConnect-4/LabelSize/UILabel+DynamicHeight.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/LabelSize/UILabel+DynamicHeight.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/LabelSize/UILabel+DynamicHeight.h

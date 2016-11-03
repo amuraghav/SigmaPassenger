@@ -1,21 +1,22 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PaymentViewController.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PaymentViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKView.h \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCard.h \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCardNumber.h \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCardType.h \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKComponent.h \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCardExpiry.h \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKCardCVC.h \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKAddressZip.h \
-  /Users/rakesh/Desktop/CarConnect-4/PaymentKit/PaymentKit/PTKUSAddressZip.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/RadioButton.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/CardLoginViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/UploadFiles.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/XDKAirMenuController.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PaymentDetailsViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PaymentCell.h \
-  /Users/rakesh/Desktop/CarConnect-4/Entity.h \
-  /Users/rakesh/Desktop/CarConnect-4/Database.h \
-  /Users/rakesh/Desktop/CarConnect-4/CustomNavView/CustomNavigationBar.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PaymentViewController.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PaymentViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKView.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKCard.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKCardNumber.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKCardType.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKComponent.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKCardExpiry.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKCardCVC.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKAddressZip.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/PaymentKit/PaymentKit/PTKUSAddressZip.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/RadioButton.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/CardLoginViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/UploadFiles.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/XDKAirMenuController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PaymentDetailsViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PaymentCell.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Entity.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Database.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/CustomNavView/CustomNavigationBar.h

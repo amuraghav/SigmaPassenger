@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m \
-  /Users/rakesh/Desktop/CarConnect-4/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h

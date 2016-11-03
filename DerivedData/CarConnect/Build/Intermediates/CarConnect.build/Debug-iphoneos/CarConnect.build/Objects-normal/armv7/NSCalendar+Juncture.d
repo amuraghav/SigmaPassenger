@@ -1,5 +1,7 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/NSCalendar+Juncture.m \
-  /Users/rakesh/Desktop/CarConnect-4/NSCalendar+Juncture.h \
-  /Users/rakesh/Desktop/CarConnect-4/NSCalendar+Ranges.h \
-  /Users/rakesh/Desktop/CarConnect-4/NSCalendar+Components.h \
-  /Users/rakesh/Desktop/CarConnect-4/NSCalendar+DateManipulation.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSCalendar+Juncture.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSCalendar+Juncture.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSCalendar+Ranges.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSCalendar+Components.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/NSCalendar+DateManipulation.h

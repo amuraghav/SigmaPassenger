@@ -1,8 +1,9 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PatientViewController.m \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/PatientViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/HelpViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/ViewController.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/XDKAirMenuController.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/AppointedDoctor.h \
-  /Users/rakesh/Desktop/CarConnect-4/privMD/User.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PatientViewController.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/PatientViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/HelpViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/ViewController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/XDKAirMenuController.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/AppointedDoctor.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/privMD/User.h

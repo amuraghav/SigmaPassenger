@@ -1,5 +1,7 @@
-dependencies: /Users/rakesh/Desktop/CarConnect-4/Database.m \
-  /Users/rakesh/Desktop/CarConnect-4/Database.h \
-  /Users/rakesh/Desktop/CarConnect-4/Entity.h \
-  /Users/rakesh/Desktop/CarConnect-4/SourceAddress.h \
-  /Users/rakesh/Desktop/CarConnect-4/DestinationAddress.h
+dependencies: \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Database.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Database.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Entity.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SourceAddress.h \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/DestinationAddress.h

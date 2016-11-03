@@ -150,7 +150,7 @@
        NSString *curreny =  [PatientGetLocalCurrency getCurrencyLocal:[responseDictionary[@"fare"] floatValue]];
             [Helper setToLabel:_sourceDistanceLabel Text:[NSString stringWithFormat:@" %@",responseDictionary[@"curDis"]] WithFont:Trebuchet_MS FSize:11 Color:UIColorFromRGB(0x969797)];
             [Helper setToLabel:_pickupLAbel Text:@"Pick Up Location" WithFont:Trebuchet_MS FSize:11 Color:[UIColor blackColor]];
-            
+//            NSString * distanc = [self convertInMiels:[NSString stringWithFormat:@" %@",responseDictionary[@"dis"]]];
             [Helper setToLabel:_destinationLocationLabel Text:[locationDetails objectForKey:@"dAddr"] WithFont:Trebuchet_MS FSize:14 Color:[UIColor blackColor]];
             [Helper setToLabel:_destinationDistanceLabel Text:[NSString stringWithFormat:@" %@",responseDictionary[@"dis"]]  WithFont:Trebuchet_MS FSize:11 Color:[UIColor blackColor]];
             [Helper setToLabel:_dropoffLabel Text:@"Drop Off Location" WithFont:Trebuchet_MS FSize:11 Color:[UIColor blackColor]];
@@ -169,9 +169,9 @@
            
             
             NSArray *fareArr = [[responseDictionary objectForKey:@"content"] objectAtIndex:0];
-            self.firstFarelabel.text = [NSString stringWithFormat:@"%@ KM =  %@ \n",[[fareArr objectAtIndex:0] objectForKey:@"description"],[[fareArr objectAtIndex:0]  objectForKey:@"amount"]];
-            self.secondFareLabel.text = [NSString stringWithFormat:@"%@ KM =  %@ \n",[[fareArr objectAtIndex:1] objectForKey:@"description"],[[fareArr objectAtIndex:1]  objectForKey:@"amount"]];
-            self.thirdFareLable.text = [NSString stringWithFormat:@"%@ KM =  %@ \n",[[fareArr objectAtIndex:2] objectForKey:@"description"],[[fareArr objectAtIndex:2]  objectForKey:@"amount"]];
+            self.firstFarelabel.text = [NSString stringWithFormat:@"%@ = $ %@ \n",[[fareArr objectAtIndex:0] objectForKey:@"description"],[[fareArr objectAtIndex:0]  objectForKey:@"amount"]];
+            self.secondFareLabel.text = [NSString stringWithFormat:@"%@ = $ %@ \n",[[fareArr objectAtIndex:1] objectForKey:@"description"],[[fareArr objectAtIndex:1]  objectForKey:@"amount"]];
+            self.thirdFareLable.text = [NSString stringWithFormat:@"%@ = $ %@ \n",[[fareArr objectAtIndex:2] objectForKey:@"description"],[[fareArr objectAtIndex:2]  objectForKey:@"amount"]];
 //            _messageLabel.backgroundColor = [UIColor grayColor];
             
         }
@@ -184,7 +184,11 @@
 
 
 
-
+//-(NSString *)convertInMiels:(NSString *)km{
+//    km = [km stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+//    NSArray *distace = [km componentsSeparatedByString:@" "];
+//    return @"vgfgv";
+//}
 
 #pragma mark - CustomNavigation Button
 

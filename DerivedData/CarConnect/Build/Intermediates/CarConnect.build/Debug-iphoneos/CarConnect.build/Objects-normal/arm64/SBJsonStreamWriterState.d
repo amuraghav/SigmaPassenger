@@ -1,3 +1,4 @@
 dependencies: \
-  /Users/rakesh/Desktop/CarConnect-4/SBJsonStreamWriterState.m \
-  /Users/rakesh/Desktop/CarConnect-4/SBJsonStreamWriterState.h
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/Crashlytics.framework/Modules/module.modulemap \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SBJsonStreamWriterState.m \
+  /Users/admin/Documents/PankajRaghav/Sigma/Passenger/SBJsonStreamWriterState.h

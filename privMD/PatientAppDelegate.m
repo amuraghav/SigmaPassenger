@@ -145,8 +145,19 @@ void uncaughtExceptionHandler(NSException *exception) {
     TELogInfo(@"My userinfolocal is: %@", userinfolocal);
     NSDictionary *dictContainingUserInfo  = [[NSDictionary alloc]initWithDictionary:userinfolocal];
     TELogInfo(@"My dict is: %@", dictContainingUserInfo);
+    
+    int type = [userinfolocal[@"aps"][@"nt"] intValue];
+    if(type == kNotificationTypeBookingComplete ){
+        NSString *message = [[userInfo objectForKey:@"aps"] objectForKey:@"alert"];
+        
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Message :" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView show];
+    }
+    
+    
 
     [self handleNotificationForUserInfo:userinfolocal];
+    
 
 }
 - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
@@ -271,11 +282,22 @@ void uncaughtExceptionHandler(NSException *exception) {
 }
 
 -(void)noPushForceChangingController:(NSDictionary *)userInfo :(int)type{
+    
+  
+//    UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"pubnub Report" message:[NSString stringWithFormat:@"%@",userInfo] delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+//    [alert1 show];
 
     NSDictionary *dictionary = [userInfo mutableCopy];
     
     if(type == kNotificationTypeBookingOnMyWay)
     {
+        
+//        NSUserDefaults *udPlotting = [NSUserDefaults standardUserDefaults];
+//        [udPlotting setDouble:srcLat   forKey:@"srcLat"];
+//        [udPlotting setDouble:srcLong  forKey:@"srcLong"];
+//        [udPlotting setDouble:desLat   forKey:@"desLat"];
+//        [udPlotting setDouble:desLong  forKey:@"desLong"];
+        
         AppointedDoctor *appointedDoctor = [[AppointedDoctor alloc] init];
         appointedDoctor.driverName      =  dictionary[@"fName"];
         appointedDoctor.contactNumber   =  dictionary[@"mobile"];
@@ -424,6 +446,11 @@ void uncaughtExceptionHandler(NSException *exception) {
 
 -(void)handleNotificationForUserInfo:(NSDictionary*)userInfo{
     
+//    UIAlertView *alert1 = [[UIAlertView alloc] initWithTitle:@"Cancel Report" message:[NSString stringWithFormat:@"%@/nSTATUS",userInfo] delegate:Nil cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+//    [alert1 show];
+    
+   
+    
     TELogInfo(@"Push Message %@ " ,userInfo);
     [self playNotificationSound];
     int type = [userInfo[@"aps"][@"nt"] intValue];
@@ -448,6 +475,48 @@ void uncaughtExceptionHandler(NSException *exception) {
     }
     else if(type == kNotificationTypeBookingOnMyWay)
     {
+        
+        
+        
+//        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Message :" message:[NSString stringWithFormat:@"%@",[[userInfo objectForKey:@"aps"] objectForKey:@"alert"]]delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+//        [alertView show];
+//        
+//        [[NSUserDefaults standardUserDefaults] setObject:userInfo[@"aps"][@"c"] forKey:@"SUBSCRIBEDCHANNEL"];
+//        //Status Key For Changing content on HomeViewController
+//        [[NSUserDefaults standardUserDefaults] setInteger:0 forKey:@"STATUSKEY"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//
+//        
+//        
+//        AppointedDoctor *appointedDoctor = [[AppointedDoctor alloc] init];
+//        appointedDoctor.driverName      =  userInfo[@"aps"][@"sname"];
+//        appointedDoctor.contactNumber   =  userInfo[@"aps"][@"ph"];
+//        appointedDoctor.profilePicURL   =  userInfo[@"aps"][@"pic"];
+//        appointedDoctor.email           =  userInfo[@"aps"][@"e"];
+//        appointedDoctor.status          =   @"Driver is on the way";
+//        appointedDoctor.appTdateForPresentAppt = userInfo[@"aps"][@"d"];
+//        appointedDoctor.statusID = [NSString stringWithFormat:@"%d",type];
+//        appointedDoctor.appointmentID = userInfo[@"aps"][@"id"];
+//        appointedDoctor.appoinmentDate = userInfo[@"aps"][@"d"];
+//        
+//        UIAlertView *alertView1 = [[UIAlertView alloc] initWithTitle:@"Message :" message:[NSString stringWithFormat:@"%@",appointedDoctor.driverName]delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+//        [alertView1 show];
+//        NSData *encodedObject = [NSKeyedArchiver archivedDataWithRootObject:appointedDoctor];
+//        [[NSUserDefaults standardUserDefaults] setObject:encodedObject forKey:kNSUAppoinmentDoctorDetialKey];
+//        [[NSUserDefaults standardUserDefaults] setObject:userInfo[@"aps"][@"e"] forKey:KUDriverEmail];
+//        [[NSUserDefaults standardUserDefaults] setObject:userInfo[@"aps"][@"d"] forKey:KUBookingDate];
+//        [[NSUserDefaults standardUserDefaults] setObject:userInfo[@"aps"][@"id"] forKey:@"bookingid"];
+//        [[NSUserDefaults standardUserDefaults] setObject:userInfo[@"aps"][@"sname"] forKey:@"drivername"];
+//        [[NSUserDefaults standardUserDefaults] setObject:userInfo[@"aps"][@"pic"] forKey:@"driverpic"];
+//        [[NSUserDefaults standardUserDefaults] setObject:userInfo[@"aps"][@"ph"] forKey:@"DriverTelNo"];
+//        //Status Key For Changing content on HomeViewController
+//        [[NSUserDefaults standardUserDefaults] setInteger:kNotificationTypeBookingOnMyWay forKey:@"STATUSKEY"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        //Local Notification to notifyi HomeViewController
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"DRIVERONTHEWAY" object:nil userInfo:nil];
+
+        
+//        
 //        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:kNSUIsPassengerBookedKey];
 //        [[NSUserDefaults standardUserDefaults]synchronize];
 //        
@@ -468,6 +537,31 @@ void uncaughtExceptionHandler(NSException *exception) {
 //        }
     }
     else if(type == kNotificationTypeBookingReachedLocation){
+        
+//        NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+//        NSData *decodedObject = [ud objectForKey:kNSUAppoinmentDoctorDetialKey];
+//        AppointedDoctor *appointedDoctor = [NSKeyedUnarchiver unarchiveObjectWithData:decodedObject];
+//        
+//        appointedDoctor.statusID = [NSString stringWithFormat:@"%d",type];
+//        //appointedDoctor.appointmentID = dictionary[@"bid"];
+//        
+//        NSData *encodedObject = [NSKeyedArchiver archivedDataWithRootObject:appointedDoctor];
+//        [[NSUserDefaults standardUserDefaults] setObject:encodedObject forKey:kNSUAppoinmentDoctorDetialKey];
+//        
+//        //Status Key For Changing content on HomeViewController
+//        [[NSUserDefaults standardUserDefaults] setInteger:kNotificationTypeBookingReachedLocation forKey:@"STATUSKEY"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        
+//        //Local Notification to notifyi HomeViewController
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"DRIVERREACHED" object:nil userInfo:nil];
+
+        
+        
+        
+        
+        
+        
+        
         
         BOOL isAlreadyCame = [self checkCurrentStatus:kNotificationTypeBookingReachedLocation];
         BOOL isAlreadyBooked = [self checkIfBokkedOrNot];
@@ -499,10 +593,60 @@ void uncaughtExceptionHandler(NSException *exception) {
     } //kNotificationTypeBookingReachedLocation
     else if (type == kNotificationTypeBookingStarted) {
         
+//        [[NSUserDefaults standardUserDefaults] setInteger:kNotificationTypeBookingStarted forKey:@"STATUSKEY"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        
+//        //Local Notification to notifyi HomeViewController
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"JOBSTARTED" object:nil userInfo:nil];
+        
+        
+        
         [self noPushForceChangingController:[NSDictionary dictionary] :kNotificationTypeBookingStarted];
         
     }
     else if (type == kNotificationTypeBookingComplete){
+        
+        
+        
+//        NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+//        NSData *decodedObject = [ud objectForKey:kNSUAppoinmentDoctorDetialKey];
+//        AppointedDoctor *appointedDoctor = [NSKeyedUnarchiver unarchiveObjectWithData:decodedObject];
+//        
+//        appointedDoctor.statusID = [NSString stringWithFormat:@"%d",type];
+//        appointedDoctor.appointmentID = userInfo[@"aps"][@"id"];
+//        
+//        //Status Key For Changing content on HomeViewController
+//        
+//        [[NSUserDefaults standardUserDefaults] setInteger:kNotificationTypeBookingComplete forKey:@"STATUSKEY"];
+//        [[NSUserDefaults standardUserDefaults] synchronize];
+//        
+//        NSData *encodedObject = [NSKeyedArchiver archivedDataWithRootObject:appointedDoctor];
+//        [[NSUserDefaults standardUserDefaults] setObject:encodedObject forKey:kNSUAppoinmentDoctorDetialKey];
+//        
+//        UIStoryboard *mainstoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//        InvoiceViewController *invoiceVC = [mainstoryboard instantiateViewControllerWithIdentifier:@"invoiceVC"];
+//        
+//        invoiceVC.doctorEmail = [[NSUserDefaults standardUserDefaults] objectForKey:@"DriverEmail"];
+//        invoiceVC.appointmentDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"BookingDate"];
+//        invoiceVC.appointmentid = [[NSUserDefaults standardUserDefaults] objectForKey:@"bookingid"];
+//        
+//        // invoiceVC.isCancelBeforeTime = NO;
+//        UINavigationController *naviVC =(UINavigationController*) self.window.rootViewController;
+//        if (![[naviVC.viewControllers lastObject] isKindOfClass:[InvoiceViewController class]])
+//        {
+//            [naviVC pushViewController:invoiceVC animated:YES];
+//            
+//        }
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         BOOL isAlreadyCame = [self checkCurrentStatus:kNotificationTypeBookingComplete];
         BOOL isAlreadyBooked = [self checkIfBokkedOrNot];
@@ -517,6 +661,7 @@ void uncaughtExceptionHandler(NSException *exception) {
             NSDictionary *dictionary = userInfo[@"aps"];
             [self gotoInvoiceScreen:dictionary];
         }
+        
     }
     else if(type == kNotificationTypeBookingReject){
         
@@ -532,6 +677,8 @@ void uncaughtExceptionHandler(NSException *exception) {
 }
 
 -(void)gotoInvoiceScreen :(NSDictionary *)detailsDict{
+    
+    
     
     //Status Key For Changing content on HomeViewController
     
